@@ -90,7 +90,7 @@
 	</nav>
 	<svelte:fragment slot="trail">
 		<LightSwitch />
-		<div class="my-4 pr-4 sm:px-4 sm:py-0">
+		<div class="my-4 pr-4 sm:px-4 sm:py-0 sm:my-0">
 			<Avatar
 				width="w-10 sm:w-12"
 				border="border-4 border-surface-300-600-token hover:!border-primary-500"
