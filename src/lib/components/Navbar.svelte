@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import AnimatedHamburger from '$lib/components/AnimatedHamburger.svelte';
-	import { AppBar, Avatar, LightSwitch } from '@skeletonlabs/skeleton';
+	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 	import { slide } from 'svelte/transition';
+	import LanguageSelector from './LanguageSelector.svelte';
 
 	type NavItem = {
 		title: string;
@@ -90,12 +91,13 @@
 	</nav>
 	<svelte:fragment slot="trail">
 		<LightSwitch />
-		<div class="my-4 pr-4 sm:px-4 sm:py-0 sm:my-0">
+		<LanguageSelector />
+		<!-- <div class="my-4 pr-4 sm:px-4 sm:py-0 sm:my-0">
 			<Avatar
 				width="w-10 sm:w-12"
 				border="border-4 border-surface-300-600-token hover:!border-primary-500"
 				cursor="cursor-pointer"
 			/>
-		</div>
+		</div> -->
 	</svelte:fragment>
 </AppBar>
