@@ -20,5 +20,5 @@
 	</div>
 	<slot />
 	<!-- (pageFooter) -->
-	<svelte:fragment slot="footer">Footer</svelte:fragment>
+	<svelte:fragment slot="footer"><span class="hidden sm:block">footer</span></svelte:fragment>
 </AppShell>

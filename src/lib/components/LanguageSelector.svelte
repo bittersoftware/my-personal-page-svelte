@@ -28,42 +28,77 @@
 	function toggleOptions() {
 		showOptions = !showOptions;
 	}
+
+	function closeDropDown(event: Event) {
+		showOptions = false;
+	}
+
+	function clickOutside(node: HTMLElement, ignore?: string) {
+		const handleClick = (event: Event) => {
+			const target = event.target as HTMLElement;
+			if (!event.target || (ignore && target.closest(ignore))) {
+				return;
+			}
+			if (node && !node.contains(target) && !event.defaultPrevented) {
+				node.dispatchEvent(new CustomEvent('click_outside'));
+			}
+		};
+
+		document.addEventListener('click', handleClick, true);
+
+		return {
+			destroy() {
+				document.removeEventListener('click', handleClick, true);
+			}
+		};
+	}
 </script>
 
 <div
-	class="flex relative justify-center m-2 rounded-full border-2 border-black variant-filled-surface w-10 h-10"
+	use:clickOutside={'#language-dropdown'}
+	on:click_outside={closeDropDown}
+	class="sm:flex sm:relative sm:justify-center sm:m-2 sm:rounded-full sm:bg-surface-100-800-token sm:border
+            sm:border-surface-300-600-token sm:w-10 sm:h-10"
 >
-	<button type="button" on:click={toggleOptions}>
+	<button class="hidden sm:block" type="button" on:click={toggleOptions}>
+		<span class="fi fi-{activeLanguage}" />
+	</button>
+	<button
+		type="button"
+		on:click={toggleOptions}
+		class="fixed z-90 bottom-8 right-8 w-12 h-12 rounded-full flex justify-center items-center
+         bg-surface-100-800-token border-2 border-surface-300-600-token sm:hidden"
+	>
 		<span class="fi fi-{activeLanguage}" />
 	</button>
 
 	{#if showOptions}
 		<div
 			class="
-				absolute -left-50 top-12 z-10 py-2 px-4 mr-2 w-auto rounded-md variant-filled-surface
-				right-0 sm:left-auto"
+				absolute -left-50 bottom-24 z-10 py-2 px-4 mr-6 w-auto rounded-md variant-filled-surface
+				right-0 sm:left-auto sm:bottom-auto sm:top-12 sm:mr-2"
 			role="menu"
 			aria-orientation="vertical"
 			aria-labelledby="menu-button"
 			tabindex="-1"
 		>
 			<ul transition:slide class="list">
-				<li>
-					{#each languages as { flag, language }}
+				{#each languages as { flag, language }}
+					<li>
 						<button
 							type="button"
 							on:click={() => selectLanguage(flag)}
-							class="flex items-center p-2 my-1 rounded-md w-full hover:bg-skin-button-hover"
+							class="flex items-center p-2 my-1 rounded-md w-full hover:variant-glass-primary"
 						>
-							<div class="flex justify-center rounded-full border-2 w-10 h-10">
+							<div class="flex justify-center rounded-full bg-secondary-100-800-token w-10 h-10">
 								<span class="fi fi-{flag}" />
 							</div>
-							<div class="px-2 text-black">
+							<div class="px-2 flex-auto">
 								<span>{language} </span>
 							</div>
 						</button>
-					{/each}
-				</li>
+					</li>
+				{/each}
 			</ul>
 		</div>
 	{/if}
