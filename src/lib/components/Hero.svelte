@@ -1,7 +1,7 @@
 <script type="ts">
+	import Lang from '$lib/Localization/Lang.svelte';
 	import { onMount } from 'svelte';
 	import Typed from 'typed.js';
-	import Lang from '../Localization/Lang.svelte';
 
 	onMount(() => {
 		const typed = new Typed('.element', {
