@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import Lang from '$lib/Localization/Lang.svelte';
 	import AnimatedHamburger from '$lib/components/AnimatedHamburger.svelte';
+	import LanguageSelector from '$lib/components/LanguageSelector.svelte';
 	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 	import { slide } from 'svelte/transition';
-	import LanguageSelector from './LanguageSelector.svelte';
 
 	type NavItem = {
 		title: string;
@@ -32,24 +33,26 @@
 	$: routeId = $page.route.id;
 	export let isOpen: boolean = false;
 	export function handleClick() {
+		console.log('click');
 		isOpen = !isOpen;
 	}
 </script>
 
 <!-- Top menu mobile -->
-<div class="w-full md:hidden">
+<div class="relative w-full z-10 sm:hidden">
 	{#if isOpen}
 		<div class="absolute mt-12 pb-4 w-full bg-surface-100-800-token">
-			<ul transition:slide class="sm:hidden">
+			<ul transition:slide>
 				{#each navItems as { title, href }}
-					<li class="sm:inline-block">
+					<li>
 						<a
 							on:click={handleClick}
 							class="text-center block mt-1 px-2 py-1 font-medium {routeId == href
-								? 'underline underline-offset-8 decoration-skin-accent'
+								? 'underline underline-offset-8'
 								: ''}"
-							{href}>{title} /></a
-						>
+							{href}
+							><Lang p="Nav" w={title} />
+						</a>
 					</li>
 				{/each}
 			</ul>
@@ -86,7 +89,7 @@
 							: ''}"
 						{href}
 					>
-						{title}
+						<Lang p="Nav" w={title} />
 						<span
 							class="block max-w-0 group-hover:max-w-full transition-all duration-500
                             h-0.5 bg-secondary-800-100-token"
