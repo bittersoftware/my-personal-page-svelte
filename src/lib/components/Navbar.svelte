@@ -39,7 +39,7 @@
 <!-- Top menu mobile -->
 <div class="w-full md:hidden">
 	{#if isOpen}
-		<div class="absolute pt-12 pb-4 w-full bg-surface-100-800-token">
+		<div class="absolute mt-12 pb-4 w-full bg-surface-100-800-token">
 			<ul transition:slide class="sm:hidden">
 				{#each navItems as { title, href }}
 					<li class="sm:inline-block">

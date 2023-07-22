@@ -14,10 +14,9 @@
 >
 
 <AppShell>
-	<svelte:fragment slot="pageHeader" />
-	<div class="sm:block">
+	<svelte:fragment slot="pageHeader">
 		<Navbar />
-	</div>
+	</svelte:fragment>
 	<slot />
 	<!-- (pageFooter) -->
 	<svelte:fragment slot="footer"><span class="hidden sm:block">footer</span></svelte:fragment>
