@@ -1,4 +1,5 @@
 <script lang="ts">
+	import lang from '$lib/Localization/Lang';
 	import { slide } from 'svelte/transition';
 
 	let activeLanguage: string = 'us';
@@ -22,6 +23,7 @@
 	function selectLanguage(flag: string) {
 		activeLanguage = flag;
 		showOptions = false;
+		lang.set(flag);
 	}
 
 	function toggleOptions() {

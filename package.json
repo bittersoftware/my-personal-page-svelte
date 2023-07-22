@@ -41,6 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"circle-flags": "github:HatScripts/circle-flags"
+		"circle-flags": "github:HatScripts/circle-flags",
+		"typed.js": "^2.0.16"
 	}
 }
