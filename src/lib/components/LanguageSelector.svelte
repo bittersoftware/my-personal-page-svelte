@@ -97,7 +97,7 @@
 						<button
 							type="button"
 							on:click={() => selectLanguage(flag)}
-							class="flex items-center p-2 my-1 rounded-md w-full hover:variant-glass-primary"
+							class="flex items-center p-2 my-1 rounded-md w-full hover:variant-glass-surface"
 						>
 							<div
 								class="flex justify-center rounded-full w-10 h-10 border-2 border-surface-300-600-token"
