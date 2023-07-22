@@ -61,6 +61,7 @@
 	class="sm:flex sm:relative sm:justify-center sm:m-2 sm:rounded-full sm:bg-surface-100-800-token sm:border
             sm:border-surface-300-600-token sm:w-10 sm:h-10"
 >
+	<!-- Desktop floating language selector -->
 	<button class="hidden sm:block" type="button" on:click={toggleOptions}>
 		<img
 			src="https://hatscripts.github.io/circle-flags/flags/{activeLanguage}.svg"
@@ -68,10 +69,12 @@
 			width="48"
 		/>
 	</button>
+
+	<!-- Mobile floating language selector -->
 	<button
 		type="button"
 		on:click={toggleOptions}
-		class="fixed z-90 bottom-8 right-8 w-12 h-12 rounded-full flex justify-center items-center
+		class="fixed z-90 bottom-6 right-6 w-12 h-12 rounded-full flex justify-center items-center
          bg-surface-100-800-token border-2 border-surface-300-600-tokenl sm:hidden"
 	>
 		<img
