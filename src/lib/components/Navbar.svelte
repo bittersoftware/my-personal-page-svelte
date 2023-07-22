@@ -74,17 +74,24 @@
 			/>
 		</svg>
 	</svelte:fragment>
-	<nav class="hidden sm:list-nav sm:inline-block">
+	<nav class="hidden sm:flex">
 		<ul>
 			{#each navItems as { title, href }}
 				<li class="sm:inline-block">
 					<a
 						on:click={handleClick}
-						class="text-center block mt-1 px-2 py-1 font-medium {routeId == href
-							? 'underline underline-offset-8 decoration-skin-accent'
+						class="text-center block mt-1 px-6 py-1 font-medium group transition duration-300
+                        {routeId == href
+							? 'underline underline-offset-8 decoration-sky-500 hover:decoration-white'
 							: ''}"
-						{href}>{title} /></a
+						{href}
 					>
+						{title}
+						<span
+							class="block max-w-0 group-hover:max-w-full transition-all duration-500
+                            h-0.5 bg-secondary-800-100-token"
+						/>
+					</a>
 				</li>
 			{/each}
 		</ul>
