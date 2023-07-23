@@ -58,7 +58,7 @@
 		style="transform: translateX(-{index * 100}%)"
 	>
 		{#each slides as slide}
-			<div class="flex-shrink-0 w-screen bg-gray-300">
+			<div class="flex-shrink-0 w-screen">
 				<ProjectCard />
 			</div>
 		{/each}

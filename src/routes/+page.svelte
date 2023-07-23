@@ -24,6 +24,6 @@
 
 <Hero />
 <section>
-	<h3 class="h3">Projects</h3>
+	<h3 class="h3 px-8 pb-4 sm:pt-10 sm:px-40">Projects</h3>
 	<Carousel />
 </section>
