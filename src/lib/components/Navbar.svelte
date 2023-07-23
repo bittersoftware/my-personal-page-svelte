@@ -17,16 +17,12 @@
 			href: '/'
 		},
 		{
-			title: 'CV',
+			title: 'Resume',
 			href: '/resume'
 		},
 		{
-			title: 'Youtube',
+			title: 'Mystuff',
 			href: '/my_stuff'
-		},
-		{
-			title: 'About',
-			href: '/about'
 		}
 	];
 
@@ -65,7 +61,7 @@
 	slotDefault="sm:place-self-center"
 	slotTrail="place-content-end"
 	gap="gap-0 sm:gap-4"
-	padding="py-0 sm:p-4"
+	padding="py-0 sm:p-2"
 >
 	<svelte:fragment slot="lead">
 		<div class="sm:hidden">

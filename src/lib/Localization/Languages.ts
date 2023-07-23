@@ -11,17 +11,12 @@ export const languages: {
             es: "Home",
             br: "Home",
         },
-        About: {
-            us: "About",
-            es: "Acerca",
-            br: "Sobre",
-        },
-        CV: {
+        Resume: {
             us: "Resumé",
             es: "Hoja de Vida",
             br: "Currículo",
         },
-        Youtube: {
+        Mystuff: {
             us: "My Stuff",
             es: "Mi Chiringuito",
             br: "Minhas Paradas",
