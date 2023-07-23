@@ -25,10 +25,10 @@
 			height="280"
 		/>
 	</div>
-	<div class="px-8 lg:py-10 lg:px-40">
+	<div class="px-8 sm:py-10 sm:px-40">
 		<!-- Hero -->
 		<!-- Hero - Introduction -->
-		<h1 class="h6 pt-10 pb-2 sm:h5"><Lang p="Hero" w="Introduction" /></h1>
+		<h1 class="h6 pt-4 sm:pb-2 sm:pt-10 sm:h5"><Lang p="Hero" w="Introduction" /></h1>
 		<h1 class="h3 pb-5 sm:pb-10 sm:text-3xl">Thiago Bittencourt</h1>
 		<div class="flex font-extrabold text-3xl lg:text-7xl">
 			<h1 class="h1 pr-3 text-4xl sm:pr-4 sm:text-7xl"><Lang p="Hero" w="Im" /></h1>
@@ -40,7 +40,7 @@
 			<p class="h6 text-secondary-700-200-token"><Lang p="Hero" w="SecondSubText" /></p>
 		</div>
 		<!-- Hero - CTA -->
-		<div class="flex justify-center pt-5 sm:pt-0 sm:justify-start">
+		<div class="flex justify-center pt-0 sm:justify-start">
 			<button
 				type="button"
 				class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
