@@ -1,5 +1,5 @@
 <!-- Display Container (not part of component) START -->
-<div class="mb-10 mx-auto pr-2 sm:px-24 lg:px-48">
+<div class="mb-4 mx-auto pr-2 sm:mb-10 sm:px-24 lg:px-48">
 	<!-- Carousel Body -->
 	<div
 		class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl"

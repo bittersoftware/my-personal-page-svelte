@@ -52,7 +52,7 @@
 	}
 </script>
 
-<div class="hidden sm:block sm:overflow-hidden sm:relative">
+<div class="hidden sm:pb-4 sm:block sm:overflow-hidden sm:relative">
 	<div
 		class="flex transition-transform ease-out duration-300"
 		style="transform: translateX(-{index * 100}%)"
@@ -63,22 +63,18 @@
 			</div>
 		{/each}
 	</div>
-	<div class="absolute inset-0 flex items-center justify-between p-4">
-		<button on:click={previousSlideClick} class="p-1 rounded-full shadows w-12 h-12 bg-white">
-			<svg fill="none" viewBox="0 0 24 24"
-				><path
-					fill="#0F0F0F"
-					d="M16.18 3.269a1 1 0 0 0-1.415 0L8.121 9.913a3 3 0 0 0-.001 4.242l6.57 6.575a1 1 0 1 0 1.415-1.414l-6.573-6.572a1 1 0 0 1 0-1.414l6.648-6.647a1 1 0 0 0 0-1.414Z"
-				/></svg
-			>
+	<div class="absolute inset-0 flex items-center justify-between px-12">
+		<button
+			on:click={previousSlideClick}
+			class="p-1 rounded-full shadows w-12 h-12 btn-icon bg-surface-300-600-token"
+		>
+			<a href="#slide2" class="flex btn btn-circle">❮</a>
 		</button>
-		<button on:click={nextSlideClick} class="p-1 rounded-full shadows w-12 h-12 bg-white">
-			<svg fill="none" viewBox="0 0 24 24"
-				><path
-					fill="#0F0F0F"
-					d="M16.18 3.269a1 1 0 0 0-1.415 0L8.121 9.913a3 3 0 0 0-.001 4.242l6.57 6.575a1 1 0 1 0 1.415-1.414l-6.573-6.572a1 1 0 0 1 0-1.414l6.648-6.647a1 1 0 0 0 0-1.414Z"
-				/></svg
-			>
+		<button
+			on:click={nextSlideClick}
+			class="p-1 rounded-full shadows w-12 h-12 btn-icon bg-surface-300-600-token"
+		>
+			<a href="#slide2" class="flex btn btn-circle">❯</a>
 		</button>
 	</div>
 
@@ -86,9 +82,9 @@
 		<div class="flex items-center justify-center gap-2">
 			{#each slides as slide, i}
 				<div
-					class="transition-all w-3 h-3 bg-white rounded-full {index === i
+					class="transition-all w-3 h-3 bg-surface-400-500-token rounded-full {index === i
 						? 'p-2'
-						: 'bg-opacity-50'}"
+						: 'opacity-50'}"
 				/>
 			{/each}
 		</div>

@@ -36,7 +36,7 @@
 <!-- Top menu mobile -->
 <div class="relative w-full z-10 sm:hidden">
 	{#if isOpen}
-		<div class="absolute mt-12 pb-4 w-full bg-surface-100-800-token">
+		<div class="absolute mt-10 pb-4 w-full bg-surface-100-800-token">
 			<ul transition:slide>
 				{#each navItems as { title, href }}
 					<li>
