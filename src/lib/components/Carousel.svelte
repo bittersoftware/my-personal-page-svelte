@@ -52,7 +52,7 @@
 	}
 </script>
 
-<div class="overflow-hidden relative">
+<div class="hidden sm:block sm:overflow-hidden sm:relative">
 	<div
 		class="flex transition-transform ease-out duration-300"
 		style="transform: translateX(-{index * 100}%)"
@@ -93,4 +93,12 @@
 			{/each}
 		</div>
 	</div>
+</div>
+
+<div class="sm:hidden">
+	{#each slides as slide}
+		<div class="ml-2">
+			<ProjectCard />
+		</div>
+	{/each}
 </div>
