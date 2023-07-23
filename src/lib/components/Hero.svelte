@@ -25,7 +25,7 @@
 			height="280"
 		/>
 	</div>
-	<div class="px-8 sm:py-10 sm:px-40">
+	<div class="px-8 pb-4 sm:py-10 sm:px-40">
 		<!-- Hero -->
 		<!-- Hero - Introduction -->
 		<h1 class="h6 pt-4 sm:pb-2 sm:pt-10 sm:h5"><Lang p="Hero" w="Introduction" /></h1>

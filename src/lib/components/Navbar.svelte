@@ -29,7 +29,6 @@
 	$: routeId = $page.route.id;
 	export let isOpen: boolean = false;
 	export function handleClick() {
-		console.log('click');
 		isOpen = !isOpen;
 	}
 </script>
