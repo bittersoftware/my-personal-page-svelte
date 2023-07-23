@@ -23,6 +23,7 @@
 </script>
 
 <Hero />
-<div class="flex justify-center sm:px-32 sm:py-16">
+<section>
+	<h3 class="h3">Projects</h3>
 	<Carousel />
-</div>
+</section>

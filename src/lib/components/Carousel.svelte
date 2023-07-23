@@ -1,4 +1,6 @@
 <script>
+	import ProjectCard from './ProjectCard.svelte';
+
 	const slides = [
 		{
 			url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80'
@@ -52,12 +54,13 @@
 
 <div class="overflow-hidden relative">
 	<div
-		id="slides"
 		class="flex transition-transform ease-out duration-300"
 		style="transform: translateX(-{index * 100}%)"
 	>
 		{#each slides as slide}
-			<img src={slide.url} alt="bla" />
+			<div class="flex-shrink-0 w-screen bg-gray-300">
+				<ProjectCard />
+			</div>
 		{/each}
 	</div>
 	<div class="absolute inset-0 flex items-center justify-between p-4">
