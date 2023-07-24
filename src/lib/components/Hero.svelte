@@ -41,7 +41,8 @@
 		</div>
 		<!-- Hero - CTA -->
 		<div class="flex justify-center pt-0 sm:justify-start">
-			<button
+			<a
+				href="/resume"
 				type="button"
 				class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
 				 inline-flex items-center"
@@ -61,7 +62,7 @@
 					>
 				</span>
 				<span><Lang p="Hero" w="CTA" /></span>
-			</button>
+			</a>
 		</div>
 	</div>
 </section>
