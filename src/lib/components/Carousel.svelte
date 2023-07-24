@@ -1,27 +1,32 @@
-<script>
+<script lang="ts">
+	import type { Project } from '$lib/utils/types';
 	import ProjectCard from './ProjectCard.svelte';
+	const projects: Project[] = [
+		{
+			name: 'Max',
+			image: 'images/max.png',
+			description: 'Max'
+		},
+		{
+			name: 'HBO Max',
+			image: 'images/hbo_max.png',
+			description: 'HBOMax'
+		},
+		{
+			name: 'Rakuten Living Apps',
+			image: 'images/rakuten.png',
+			description: 'Rakuten'
+		},
 
-	const slides = [
 		{
-			title: 'Max',
-			image: 'images/max.png'
+			name: 'Vivo Play TV',
+			image: 'images/vivo_play.png',
+			description: 'Vivo'
 		},
 		{
-			title: 'HBO Max',
-			image: 'images/hbo_max.png'
-		},
-		{
-			title: 'Rakuten Living Apps',
-			image: 'images/rakuten.png'
-		},
-
-		{
-			title: 'Vivo Play TV',
-			image: 'images/vivo_play.png'
-		},
-		{
-			title: 'Entel',
-			image: 'images/entel.png'
+			name: 'Entel',
+			image: 'images/entel.png',
+			description: 'Entel'
 		}
 	];
 
@@ -34,18 +39,15 @@
 	}
 
 	function previousSlideClick() {
-		index = index === 0 ? slides.length - 1 : index - 1;
+		index = index === 0 ? projects.length - 1 : index - 1;
 		stopAutoSlide = true;
 	}
 
 	function nextSlide() {
-		index = index === slides.length - 1 ? 0 : index + 1;
+		index = index === projects.length - 1 ? 0 : index + 1;
 	}
 
-	/**
-	 * @type {string | number | NodeJS.Timeout | undefined}
-	 */
-	let clear;
+	let clear: string | number | NodeJS.Timeout | undefined;
 
 	$: {
 		if (stopAutoSlide) {
@@ -62,9 +64,9 @@
 		class="flex transition-transform ease-out duration-300"
 		style="transform: translateX(-{index * 100}%)"
 	>
-		{#each slides as { title, image }}
+		{#each projects as project}
 			<div class="flex-shrink-0 w-screen">
-				<ProjectCard {image} />
+				<ProjectCard {project} />
 			</div>
 		{/each}
 	</div>
@@ -85,7 +87,7 @@
 
 	<div class="absolute bottom-4 right-0 left-0">
 		<div class="flex items-center justify-center gap-2">
-			{#each slides as slide, i}
+			{#each projects as project, i}
 				<div
 					class="transition-all w-3 h-3 bg-surface-400-500-token rounded-full {index === i
 						? 'p-2'
@@ -97,9 +99,9 @@
 </div>
 
 <div class="sm:hidden">
-	{#each slides as { title, image }}
+	{#each projects as project}}
 		<div class="ml-2">
-			<ProjectCard {image} />
+			<ProjectCard {project} />
 		</div>
 	{/each}
 </div>
