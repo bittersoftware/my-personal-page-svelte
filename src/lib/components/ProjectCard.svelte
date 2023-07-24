@@ -5,7 +5,7 @@
 	export let project: Project;
 </script>
 
-<div class="mb-4 mx-auto pr-2 sm:mb-10 sm:px-24 lg:px-48">
+<div class="mb-2 mx-auto pr-2 sm:mb-10 sm:px-24 lg:px-48">
 	<!-- Carousel Body -->
 	<div
 		class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl"
@@ -16,7 +16,7 @@
 			style="min-height: 19rem;"
 		>
 			<img
-				class="absolute inset-0 w-full h-full object-cover object-center"
+				class="absolute inset-0 w-full h-full p-1 sm:p-0 object-cover object-center"
 				src={project.image}
 				alt="project logo"
 			/>
