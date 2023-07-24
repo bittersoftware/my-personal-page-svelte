@@ -99,7 +99,7 @@
 </div>
 
 <div class="sm:hidden">
-	{#each projects as project}}
+	{#each projects as project}
 		<div class="ml-2">
 			<ProjectCard {project} />
 		</div>
