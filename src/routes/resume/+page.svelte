@@ -130,6 +130,176 @@
 				</div>
 			</div>
 			<hr />
+			<div
+				class="coding inverse-toggle px-5 mt-4 pt-4 shadow-lg text-gray-100 text-sm font-mono subpixel-antialiased
+			bg-gray-800 pb-6 rounded-lg leading-normal overflow-hidden"
+			>
+				<div class="top mb-4 flex">
+					<div class="h-3 w-3 bg-red-500 rounded-full" />
+					<div class="ml-2 h-3 w-3 bg-orange-300 rounded-full" />
+					<div class="ml-2 h-3 w-3 bg-green-500 rounded-full" />
+				</div>
+				<!-- <div class="mt-4 flex">
+					<span class="text-green-400">computer:~$</span>
+					<p class="flex-1 typing items-center pl-2">
+						apt-get hire me
+						<br />
+					</p>
+				</div> -->
+				<div class="flex gap-x-4">
+					<img class="h-12 w-12 flex-none rounded" src="images/company/wbd.jpeg" alt="" />
+					<div class="flex-auto">
+						<h3 class="text-xl font-semibold leading-6">Warner Bros. Discovery</h3>
+						<p class="text-md mt-1 leading-5 text-gray-500">Aug - 2021 - Present</p>
+					</div>
+				</div>
+				<div class="flex gap-x-4 py-4">
+					<div class="">
+						<div class="flex gap-x-4">
+							<p class="text-lg font-semibold leading-6 pb-2">Automation Lead</p>
+							<p class=" text-gray-500">Oct-2022 - Present</p>
+							<span><i class="mi mi-location" /> Madrid - Spain</span>
+						</div>
+						<ul class="">
+							<li>
+								<span class="text-green-400">~$</span>
+								<span>
+									"Leading the test automation team across different countries for the Max and HBO
+									Max projects, focusing on various models of TV decoders, Android TV, and Fire TV
+									devices."
+								</span>
+							</li>
+							<li>
+								<span class="text-green-400">~$</span>
+								<span>
+									Developing test automation frameworks to facilitate multi–device support with a
+									unified code base. Conducting onboarding sessions and delivering training to the
+									Discovery+ team on utilizing the automation stack effectively.
+								</span>
+							</li>
+						</ul>
+						<div class="flex pt-2">
+							<span class="text-green-400 pr-2">skills: ~$</span>
+							<p class="">[Python, Open Computer Vision, Pytest, BDD, Git Actions]</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex gap-x-4 py-4">
+					<div class="">
+						<div class="flex gap-x-4">
+							<p class="text-lg font-semibold leading-6 pb-2">SDET</p>
+							<p class=" text-gray-500">Aug-2021 - Sep-2022</p>
+							<span><i class="mi mi-location" /> Madrid - Spain</span>
+						</div>
+						<ul class="pb-2">
+							<li>
+								<span>
+									• Leading the test automation team across different countries for the Max and HBO
+									Max projects, focusing on various models of TV decoders, Android TV, and Fire TV
+									devices.
+								</span>
+							</li>
+							<li>
+								<span>
+									• Developing test automation frameworks to facilitate multi–device support with a
+									unified code base. Conducting onboarding sessions and delivering training to the
+									Discovery+ team on utilizing the automation stack effectively.
+								</span>
+							</li>
+						</ul>
+						<div class="flex">
+							<span class="text-green-400 pr-2">skills: ~$</span>
+							<p class="">[Python, Open Computer Vision, Pytest, BDD, Git Actions]</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul>
+				<div
+					class="coding inverse-toggle px-5 mt-4 pt-4 shadow-lg text-gray-100 text-sm font-mono subpixel-antialiased
+bg-gray-800 pb-6 rounded-lg leading-normal overflow-hidden"
+				>
+					<div class="top mb-4 flex">
+						<div class="h-3 w-3 bg-red-500 rounded-full" />
+						<div class="ml-2 h-3 w-3 bg-orange-300 rounded-full" />
+						<div class="ml-2 h-3 w-3 bg-green-500 rounded-full" />
+					</div>
+					<!-- <div class="mt-4 flex">
+		<span class="text-green-400">computer:~$</span>
+		<p class="flex-1 typing items-center pl-2">
+			apt-get hire me
+			<br />
+		</p>
+	</div> -->
+					<div class="flex gap-x-4">
+						<img class="h-12 w-12 flex-none rounded" src="images/company/everis.png" alt="" />
+						<div class="flex-auto">
+							<h3 class="text-xl font-semibold leading-6">Everis</h3>
+							<p class="text-md mt-1 leading-5 text-gray-500">Jul-2018 - Aug-2021</p>
+						</div>
+					</div>
+					<div class="flex gap-x-4 py-4">
+						<div class="">
+							<div class="flex gap-x-4">
+								<p class="text-lg font-semibold leading-6 pb-2">Test Specialist</p>
+								<p class=" text-gray-500">Mar-2021 - Jul-2022</p>
+								<span><i class="mi mi-location" /> Madrid - Spain</span>
+							</div>
+							<ul class="">
+								<li>
+									<span class="text-green-400">~$</span>
+									<span>
+										"Leading the test automation team across different countries for the Max and HBO
+										Max projects, focusing on various models of TV decoders, Android TV, and Fire TV
+										devices."
+									</span>
+								</li>
+								<li>
+									<span class="text-green-400">~$</span>
+									<span>
+										Developing test automation frameworks to facilitate multi–device support with a
+										unified code base. Conducting onboarding sessions and delivering training to the
+										Discovery+ team on utilizing the automation stack effectively.
+									</span>
+								</li>
+							</ul>
+							<div class="flex pt-2">
+								<span class="text-green-400 pr-2">skills: ~$</span>
+								<p class="">[Python, Open Computer Vision, Pytest, BDD, Git Actions]</p>
+							</div>
+						</div>
+					</div>
+					<div class="flex gap-x-4 py-4">
+						<div class="">
+							<div class="flex gap-x-4">
+								<p class="text-lg font-semibold leading-6 pb-2">System Specialist</p>
+								<p class=" text-gray-500">Jul-2018 - Feb-2021</p>
+								<span><i class="mi mi-location" /> Curitiba - Brazil</span>
+							</div>
+							<ul class="pb-2">
+								<li>
+									<span>
+										• Leading the test automation team across different countries for the Max and
+										HBO Max projects, focusing on various models of TV decoders, Android TV, and
+										Fire TV devices.
+									</span>
+								</li>
+								<li>
+									<span>
+										• Developing test automation frameworks to facilitate multi–device support with
+										a unified code base. Conducting onboarding sessions and delivering training to
+										the Discovery+ team on utilizing the automation stack effectively.
+									</span>
+								</li>
+							</ul>
+							<div class="flex">
+								<span class="text-green-400 pr-2">skills: ~$</span>
+								<p class="">[Python, Open Computer Vision, Pytest, BDD, Git Actions]</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</ul>
 		</li>
 	</ul>
 </section>
