@@ -1,20 +1,65 @@
-<svelte:head>
-	<link rel="stylesheet" href="https://unpkg.com/mono-icons@1.0.5/iconfont/icons.css" />
-</svelte:head>
+<script lang="ts">
+	import ResumeJobDescription from '$lib/components/ResumeJobDescription.svelte';
+	import type { JobDescription } from '$lib/utils/types';
 
-<p>
-	I work with Quality Assurance since 2012. I have started with of automotive embedded systems then
-	moved to telecommunications and video engineering.
-</p>
-<p>
-	I have experience with requirement analysis, test management, test plan creation, test execution,
-	test automation and troubleshooting.
-</p>
-<p>I am Brazilian, currently working as Automation Lead in Madrid, Spain</p>
+	const jobDescriptions: JobDescription[] = [
+		{
+			companyName: 'Warner Bros Discovery',
+			imageLogo: 'wbd.jpeg',
+			workType: 'Full Time',
+			startTime: new Date(2021, 7, 2),
+			endTime: undefined,
+			position: [
+				{
+					positionTitle: 'Automation Lead',
+					startTime: new Date(2022, 9, 1),
+					endTime: undefined,
+					location: 'Madrid - Spain',
+					description: 'This is what I used to do: <strong> Automation </strong>',
+					skills: 'Team lead',
+					stack: 'Python, Github'
+				},
+				{
+					positionTitle: 'SDET',
+					startTime: new Date(2021, 7, 2),
+					endTime: new Date(2022, 1, 30),
+					location: 'Madrid - Spain',
+					description: 'Second description: <strong> SDET </strong>',
+					skills: 'Team work',
+					stack: 'Python, Github'
+				}
+			]
+		}
+		// {
+		// 	companyName: 'everis',
+		// 	imageLogo: 'everis.png',
+		// 	workType: 'Full Time',
+		// 	startTime: new Date(2020, 2, 1),
+		// 	endTime: new Date(2021, 7, 2),
+		// 	position: [
+		// 		{
+		// 			positionTitle: 'Test Specialist',
+		// 			startTime: new Date(2020, 2, 1),
+		// 			endTime: new Date(2021, 7, 2),
+		// 			location: 'Madrid - Spain',
+		// 			description: 'This is what I used to do: <strong> Automation </strong>',
+		// 			skills: 'SDET',
+		// 			stack: 'Python, Github'
+		// 		}
+		// 	]
+		// }
+	];
+</script>
 
-<h2>Experience</h2>
+<ul>
+	{#each jobDescriptions as job}
+		<li>
+			<ResumeJobDescription jobDescription={job} />
+		</li>
+	{/each}
+</ul>
 
-<div>
+<!-- <div>
 	<div class="flex">
 		<div class="col-1 px-4">
 			<div class="w-14">
@@ -79,4 +124,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->

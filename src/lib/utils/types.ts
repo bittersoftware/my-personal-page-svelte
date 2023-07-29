@@ -12,12 +12,11 @@ export type Language = {
 export type JobPosition = {
     positionTitle: string;
     startTime: Date;
-    endTime: Date | string;
+    endTime: Date | undefined;
     location: string;
     description: string;
     skills: string;
     stack: string;
-
 }
 
 export type JobDescription = {
@@ -25,6 +24,6 @@ export type JobDescription = {
     imageLogo: string;
     workType: string;
     startTime: Date;
-    endTime: Date | string;
+    endTime: Date | undefined;
     position: JobPosition[];
 }
