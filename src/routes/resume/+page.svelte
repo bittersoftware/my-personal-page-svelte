@@ -219,17 +219,18 @@
 			</span></a
 		>
 	</div>
-	<div class="h6 py-4 mx-2">
-		<p>
-			I have been working with Quality Assurance and testing since 2011. My journey began with
-			automotive embedded systems, and later, I transitioned to Telecommunications and video
-			engineering. Throughout my career, I have had the opportunity to be part of projects serving
-			millions of end users, contributing to the delivery of top-quality experiences in pay-TV,
-			on-demand, and streaming services. Originally from Brazil, I am currently residing in Madrid,
-			Spain, where I lead an automation team dedicated to delivering products of excellence. I am
-			fluent in Portuguese, Spanish, and English. If you'd like to connect, please feel free to
-			reach out to me on LinkedIn.
-		</p>
+	<div class="py-4 mx-4">
+		<blockquote class="h6">
+			I have been working with <strong>Quality Assurance</strong> and testing since 2011. My journey
+			began with automotive embedded systems, and later, I transitioned to Telecommunications and
+			video engineering. Throughout my career, I have had the opportunity to be part of projects
+			<strong> serving millions of end users</strong>, contributing to the delivery of top-quality
+			experiences in pay-TV, on-demand, and streaming services. Originally from Brazil, I am
+			currently residing in Madrid, Spain, where I lead an automation team dedicated to delivering
+			products of excellence. I am fluent in <strong>Portuguese, Spanish, and English</strong>. If
+			you'd like to connect, please feel free to reach out to me on LinkedIn or explore more about
+			me below.
+		</blockquote>
 	</div>
 </div>
 <div class=" sm:px-12 sm:py-2">
