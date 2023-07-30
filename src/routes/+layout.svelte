@@ -19,5 +19,5 @@
 	</svelte:fragment>
 	<slot />
 	<!-- (pageFooter) -->
-	<svelte:fragment slot="footer"><span class="hidden sm:block">footer</span></svelte:fragment>
+	<!-- <svelte:fragment slot="footer"><span class="hidden sm:block">footer</span></svelte:fragment> -->
 </AppShell>

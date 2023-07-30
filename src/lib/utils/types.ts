@@ -22,7 +22,6 @@ export type JobPosition = {
 export type JobDescription = {
     companyName: string;
     imageLogo: string;
-    workType: string;
     startTime: Date;
     endTime: Date | undefined;
     position: JobPosition[];

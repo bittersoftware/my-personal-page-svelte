@@ -23,7 +23,6 @@
 		<div class="mb-4">
 			<h4 class="text-xl">{jobDescription.companyName}</h4>
 			<p>
-				{jobDescription.workType}
 				{getTimeDifference(jobDescription.startTime, jobDescription.endTime)}
 			</p>
 		</div>
@@ -44,10 +43,12 @@
 									<p class="text-gray-500">
 										{formattedDate(position.startTime)} - {formattedDate(position.endTime)}
 									</p>
-									<p class="hidden sm:block sm:px-2">·</p>
-									<p class="text-gray-500">
-										{getTimeDifference(position.startTime, position.endTime)}
-									</p>
+									{#if positions != 1}
+										<p class="hidden sm:block sm:px-2">·</p>
+										<p class="text-gray-500">
+											{getTimeDifference(position.startTime, position.endTime)}
+										</p>
+									{/if}
 								</div>
 								<div class="flex">
 									<svg
