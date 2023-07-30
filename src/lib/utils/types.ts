@@ -15,7 +15,7 @@ export type JobPosition = {
     endTime: Date | undefined;
     location: string;
     description: string;
-    skills: string;
+    projects: string;
     stack: string;
 }
 
