@@ -11,8 +11,12 @@
 
 <div class="flex">
 	<div class="col-1 px-4">
-		<div>
-			<img class="w-14 h-14" src="images/company/{jobDescription.imageLogo}" alt="wbd logo" />
+		<div class="grow-0 w-14">
+			<img
+				class="w-14 h-14"
+				src="images/company/{jobDescription.imageLogo}"
+				alt="{jobDescription.companyName} logo"
+			/>
 		</div>
 	</div>
 	<div class="col-2">
@@ -34,14 +38,17 @@
 							{#if positions > 1}
 								<span class="-left-12 top-4 relative block rounded-full h-2 w-2 bg-surface-500" />
 							{/if}
-							<p class=" font-bold text-lg">{position.positionTitle}</p>
+							<p class="font-bold text-lg">{position.positionTitle}</p>
 							<div class="pb-2">
-								<p class="text-gray-500">
-									{formattedDate(position.startTime)} - {formattedDate(position.endTime)} · {getTimeDifference(
-										position.startTime,
-										position.endTime
-									)}
-								</p>
+								<div class="block sm:flex">
+									<p class="text-gray-500">
+										{formattedDate(position.startTime)} - {formattedDate(position.endTime)}
+									</p>
+									<p class="hidden sm:block sm:px-2">·</p>
+									<p class="text-gray-500">
+										{getTimeDifference(position.startTime, position.endTime)}
+									</p>
+								</div>
 								<div class="flex">
 									<svg
 										class="flex-none w-5 h-5 fill-surface-500 stroke-none"
@@ -62,7 +69,7 @@
 							</div>
 							<p class="py-2">{@html position.description}</p>
 							<div class="pb-4">
-								<p><strong>Skills: </strong>{position.skills}</p>
+								<p><strong>Projects: </strong>{position.projects}</p>
 								<p><strong>Tech Stack: </strong>{position.stack}</p>
 							</div>
 						</div>
