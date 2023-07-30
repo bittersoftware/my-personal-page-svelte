@@ -1,21 +1,27 @@
 <script lang="ts">
+	import { getTimeDifference } from '$lib/utils/timeDifference';
 	import type { JobDescription } from '$lib/utils/types';
 
 	export let jobDescription: JobDescription;
 	const positions = jobDescription.position.length;
-	console.log(positions);
+	const options: Intl.DateTimeFormatOptions = { month: 'short', year: 'numeric' };
+	const formattedDate = (date: Date | undefined) =>
+		date ? date.toLocaleString('en-US', options) : 'Present';
 </script>
 
-<div class="flex bg-green-200">
+<div class="flex">
 	<div class="col-1 px-4">
-		<div class="w-14">
-			<img class="h-14" src="images/company/{jobDescription.imageLogo}" alt="wbd logo" />
+		<div>
+			<img class="w-14 h-14" src="images/company/{jobDescription.imageLogo}" alt="wbd logo" />
 		</div>
 	</div>
-	<div class="col-2 h-14">
+	<div class="col-2">
 		<div class="mb-4">
 			<h4 class="text-xl">{jobDescription.companyName}</h4>
-			<p>{jobDescription.workType} 2y</p>
+			<p>
+				{jobDescription.workType}
+				{getTimeDifference(jobDescription.startTime, jobDescription.endTime)}
+			</p>
 		</div>
 		<div class="">
 			<ul>
@@ -31,12 +37,15 @@
 							<p class=" font-bold text-lg">{position.positionTitle}</p>
 							<div class="pb-2">
 								<p class="text-gray-500">
-									{position.startTime} - {position.endTime} · 10 months
+									{formattedDate(position.startTime)} - {formattedDate(position.endTime)} · {getTimeDifference(
+										position.startTime,
+										position.endTime
+									)}
 								</p>
 								<div class="flex">
 									<svg
-										class="flex-none w-6 h-6 fill-surface-500 stroke-none"
-										viewBox="4 0 24 24"
+										class="flex-none w-5 h-5 fill-surface-500 stroke-none"
+										viewBox="4 -2 24 24"
 										fill="none"
 										><g id="SVGRepo_bgCarrier" stroke-width="0" /><g /><g id="SVGRepo_iconCarrier">
 											<path
