@@ -21,7 +21,7 @@
 				{
 					positionTitle: 'SDET',
 					startTime: new Date(2021, 7, 2),
-					endTime: new Date(2022, 1, 28),
+					endTime: new Date(2022, 9, 30),
 					location: 'Madrid - Spain',
 					description: 'Second description: <strong> SDET </strong>',
 					projects: 'HBO Max',
@@ -232,6 +232,9 @@
 			me below.
 		</blockquote>
 	</div>
+</div>
+<div class="grid grid-cols-3">
+	<div />
 </div>
 <div class=" sm:px-12 sm:py-2">
 	<h2 class="h2 text-center pb-6 sm:px-4 sm:text-start">Experience</h2>
