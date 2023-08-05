@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ResumeJobDescription from '$lib/components/ResumeJobDescription.svelte';
+	import Skills from '$lib/components/Skills.svelte';
 	import type { JobDescription } from '$lib/utils/types';
 
 	const jobDescriptions: JobDescription[] = [
@@ -233,9 +234,7 @@
 		</blockquote>
 	</div>
 </div>
-<div class="grid grid-cols-3">
-	<div />
-</div>
+<Skills />
 <div class=" sm:px-12 sm:py-2">
 	<h2 class="h2 text-center pb-6 sm:px-4 sm:text-start">Experience</h2>
 	<ul>
