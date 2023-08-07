@@ -49,7 +49,7 @@
 	];
 </script>
 
-<div class="py-8 px-8 sm:px-16 sm:pb-8 sm:pt-0">
+<div class="px-8 sm:px-16 sm:pb-8">
 	<h2 class="h2 text-center pb-6 sm:px-0 sm:text-start">Skills</h2>
 	<div class="grid grid-cols-2 gap-x-12 sm:flex sm:px-12 sm:gap-x-20 sm:flex-nowrap">
 		{#each tooling as tool}

@@ -6,4 +6,4 @@
 	export let w: string;
 </script>
 
-{languages[p][w][$lang]}
+{@html languages[p][w][$lang]}

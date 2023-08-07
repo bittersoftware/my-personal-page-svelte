@@ -37,7 +37,6 @@
 		<!-- Hero - Sub-text -->
 		<div class="py-5 sm:py-10">
 			<p class="h6 text-secondary-700-200-token"><Lang p="Hero" w="FirstSubText" /></p>
-			<p class="h6 text-secondary-700-200-token"><Lang p="Hero" w="SecondSubText" /></p>
 		</div>
 		<!-- Hero - CTA -->
 		<div class="flex justify-center pt-0 sm:justify-start">

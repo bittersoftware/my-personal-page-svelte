@@ -15,9 +15,10 @@
 					startTime: new Date(2022, 9, 1),
 					endTime: undefined,
 					location: 'Madrid - Spain',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Leading the test automation team across different countries for the Max and HBO Max projects, focusing on various models of TV decoders, Android TV, and Fire TV devices. <br> • Developing test automation frameworks to facilitate multi–device support with a unified code base.  Conducting onboarding sessions and delivering training to the Discovery+ team on utilizing the automation stack effectively.',
 					projects: 'Max',
-					stack: 'Python, Github'
+					stack: 'Python, Github, Github Actions, API requests'
 				},
 				{
 					positionTitle: 'SDET',
@@ -41,7 +42,8 @@
 					startTime: new Date(2020, 2, 1),
 					endTime: new Date(2021, 7, 31),
 					location: 'Madrid - Spain',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Developed a Python framework for automating set–top–box tests using real–time image and text analysis.  Implemented automatic report generation and test updates in Jira.',
 					projects: 'Rakuten - Telefonica Living Apps',
 					stack: 'Python, Github'
 				},
@@ -50,7 +52,8 @@
 					startTime: new Date(2018, 6, 1),
 					endTime: new Date(2020, 7, 30),
 					location: 'Curitiba - Brasil',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Managed Everis team located at customer facilities to test Telefonica (Vivo) IPTV service for Latam. This involved conducting user story analysis, creating test cases, executing tests, and troubleshooting issues on the Global Video Platform.',
 					projects: 'Vivo Play IPTV  (Global Video Platform for Latam)',
 					stack: 'Python, Github'
 				}
@@ -67,8 +70,10 @@
 					startTime: new Date(2014, 9, 1),
 					endTime: new Date(2018, 5, 30),
 					location: 'Madrid - Spain',
-					description: 'This is what I used to do: <strong> Automation </strong>',
-					projects: 'Net (Brazil)',
+					description:
+						'• Coordinated validation campaigns for Set–Top–Boxes, involving requirement analysis, test case creation, test execution and scripts for automated and performance tests. Worked with products utilizing DTH, ISDB–Tb, CATV, and IPTV technologies for the main providers at Latam, including on premise support and troubleshooting',
+					projects:
+						'Net (Brazil), Entel (Chile), Antel (Uruguay), Cablevision (Argentina), Vivo/GVT (Brazil), Telecentro (Argentina), YouTube Certification.',
 					stack: 'Python, Github'
 				}
 			]
@@ -84,7 +89,8 @@
 					startTime: new Date(2013, 2, 1),
 					endTime: new Date(2014, 9, 31),
 					location: 'Londria - Brazil',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Coordinated validation campaigns for automotive embedded systems, involving requirement analysis, test case creation, execution, and development of scripts for automated tests for the main automotive companies:',
 					projects:
 						'Ford: Truck tracker, Ford: Vehicle tracker, Fiat: mirror module, Volkswagen: electric window, Continental: BCU documentation ',
 					stack: 'Python, Github'
@@ -102,7 +108,8 @@
 					startTime: new Date(2012, 5, 1),
 					endTime: new Date(2012, 11, 30),
 					location: 'Londrina - Brazil',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Electrical projects for power station plants in Brazil, Colombia, Chile and USA.',
 					projects:
 						'Ford: Truck tracker, Ford: Vehicle tracker, Fiat: mirror module, Volkswagen: electric window, Continental: BCU documentation ',
 					stack: 'Python, Github'
@@ -120,7 +127,8 @@
 					startTime: new Date(2011, 2, 1),
 					endTime: new Date(2011, 11, 31),
 					location: 'Londria - Brazil',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Validated automotive embedded systems, primarily vehicle trackers and BCUs, for renowned manufacturers such as Fiat, Volkswagen, Toyota, Continental, and Magneti Marelli. Utilized black box and white box testing methodologies.',
 					projects: 'Continental: Vehicle Trackers, Continental: Body Control Unit (BCU)',
 					stack: 'Python, Github'
 				}
@@ -137,7 +145,8 @@
 					startTime: new Date(2010, 8, 1),
 					endTime: new Date(2011, 1, 28),
 					location: 'Londria - Brazil',
-					description: 'This is what I used to do: <strong> Automation </strong>',
+					description:
+						'• Implemented the standardization of technical and administrative processes for ISO 9001 certification.',
 					projects: 'Continental: Vehicle Trackers, Continental: Body Control Unit (BCU)',
 					stack: 'Python, Github'
 				}
@@ -227,7 +236,7 @@
 	</div>
 </div>
 <Skills />
-<div class=" sm:px-12 sm:py-2">
+<div class="sm:px-12 sm:py-2">
 	<h2 class="h2 text-center pb-6 sm:px-4 sm:text-start">Experience</h2>
 	<ul>
 		{#each jobDescriptions as job}

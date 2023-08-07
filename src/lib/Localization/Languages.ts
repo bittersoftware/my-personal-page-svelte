@@ -34,14 +34,9 @@ export const languages: {
             br: "Sou",
         },
         FirstSubText: {
-            us: "This is the first line",
-            es: "Esa es la primera linea",
-            br: "Essa eh a primeira linha",
-        },
-        SecondSubText: {
-            us: "This is the second line",
-            es: "Esta es la segunda liena",
-            br: "Esta eh a segunda linha",
+            us: "Combining technical expertise, teamwork and leadership,<br> to bring high level Software Quality.",
+            es: "Combinando experiencia técnica, trabajo en equipo y liderazgo,<br> para brindar una calidad de software de alto nivel.",
+            br: "Combinando conhecimento técnico, trabalho em equipe e liderança,<br> para trazer qualidade de software de alto nível.",
         },
         CTA: {
             us: "Check out my CV",
