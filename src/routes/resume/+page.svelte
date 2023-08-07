@@ -152,27 +152,19 @@
 		<div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
 			<div class="text-center my-4 sm:my-0 border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+10</h6>
-				<p class="text-sm font-medium tracking-widest text-gray-800 uppercase lg:text-base">
-					Years as QA
-				</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Years as QA</p>
 			</div>
 			<div class="text-center my-4 sm:my-0 sm:border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+100M</h6>
-				<p class="text-sm font-medium tracking-widest text-gray-800 uppercase lg:text-base">
-					Users
-				</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Users</p>
 			</div>
 			<div class="text-center my-4 sm:my-0 border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+60</h6>
-				<p class="text-sm font-medium tracking-widest text-gray-800 uppercase lg:text-base">
-					Countries
-				</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Countries</p>
 			</div>
 			<div class="text-center my-4 sm:my-0">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+10</h6>
-				<p class="text-sm font-medium tracking-widest text-gray-800 uppercase lg:text-base">
-					Video Platforms
-				</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Video Platforms</p>
 			</div>
 		</div>
 	</div>
@@ -220,7 +212,7 @@
 			</span></a
 		>
 	</div>
-	<div class="py-4 mx-4">
+	<div class="py-8 mx-4">
 		<blockquote class="h6">
 			I have been working with <strong>Quality Assurance</strong> and testing since 2011. My journey
 			began with automotive embedded systems, and later, I transitioned to Telecommunications and
