@@ -4,28 +4,28 @@
 	const projects: Project[] = [
 		{
 			name: 'Max',
-			image: 'images/max.png',
+			image: 'images/projects/max.png',
 			description: 'Max'
 		},
 		{
 			name: 'HBO Max',
-			image: 'images/hbo_max.png',
+			image: 'images/projects/hbo_max.png',
 			description: 'HBOMax'
 		},
 		{
 			name: 'Rakuten Living Apps',
-			image: 'images/rakuten.png',
+			image: 'images/projects/rakuten.png',
 			description: 'Rakuten'
 		},
 
 		{
 			name: 'Vivo Play TV',
-			image: 'images/vivo_play.png',
+			image: 'images/projects/vivo_play.png',
 			description: 'Vivo'
 		},
 		{
 			name: 'Entel',
-			image: 'images/entel.png',
+			image: 'images/projects/entel.png',
 			description: 'Entel'
 		}
 	];
@@ -54,7 +54,7 @@
 			clearInterval(clear);
 		} else {
 			clearInterval(clear);
-			clear = setInterval(nextSlide, 3000);
+			clear = setInterval(nextSlide, 6000);
 		}
 	}
 </script>
