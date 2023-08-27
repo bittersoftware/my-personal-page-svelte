@@ -1,4 +1,5 @@
 <script>
+	import Lang from '$lib/Localization/Lang.svelte';
 	import {
 		Beaker,
 		BookOpen,
@@ -12,53 +13,45 @@
 	const tooling = [
 		{
 			icon: CheckBadge,
-			title: 'Quality Assurance',
-			list: [
-				'Manage Test Plans',
-				'Requirement Analysis',
-				'Test Automation',
-				'Performance Test',
-				'Stress Test'
-			]
+			title: 'QualityAssurance',
+			list: 'QualityAssuranceList'
 		},
 		{
 			icon: Beaker,
-			title: 'Test Management',
-			list: ['Jira', 'TestRail', 'Grafana', 'Confluence', 'TestLink', 'Bugzilla']
+			title: 'TestManagement',
+			list: 'TestManagementList'
 		},
 		{
 			icon: WrenchScrewdriver,
-			title: 'Test Tools',
-			list: ['stb-tester', 'Selenium', 'adb', 'RedRat', 'Witbe', 'Wireshark']
+			title: 'TestTools',
+			list: 'TestToolsList'
 		},
 		{
 			icon: BookOpen,
-			title: 'Test Libraries',
-			list: ['Pytest', 'Pytest-BDD', 'Unittest', 'Gherkin', 'OpenCV', 'Tesseract (OCR)']
+			title: 'TestLibs',
+			list: 'TestLibsList'
 		},
 		{
 			icon: CodeBracketSquare,
 			title: 'Coding',
-			list: ['Python', 'Javascript', 'bash', 'C#', 'Assembly']
+			list: 'CodingList'
 		},
 		{
 			icon: Tv,
-			title: 'Video Delivery',
-			list: ['IPTV', 'Multicast (UDP, FCC)', 'VoD (HLS, DASH, SS)', 'DTG', 'ISDB-T']
+			title: 'VideoDelivery',
+			list: 'VideoDeliveryList'
 		}
 	];
 </script>
 
 <div class="px-8 sm:px-16 sm:pb-8">
-	<h2 class="h2 text-center pb-6 sm:px-0 sm:text-start">Skills</h2>
+	<h2 class="h2 text-center pb-6 sm:px-0 sm:text-start"><Lang p="Resume" w="Skills" /></h2>
 	<div class="grid grid-cols-2 gap-x-12 sm:flex sm:px-12 sm:gap-x-20 sm:flex-nowrap">
 		{#each tooling as tool}
 			<div class="my-4">
 				<Icon src={tool.icon} class="h-8 w-8 text-surface-500" />
-				<h3 class="h6 py-2">{tool.title}</h3>
-				{#each tool.list as item}
-					<p class="h6">{item}</p>
-				{/each}
+				<h3 class="h6 py-2"><Lang p="Resume" w={tool.title} /></h3>
+				<p class="h6"><Lang p="Resume" w={tool.list} /></p>
 			</div>
 		{/each}
 	</div>

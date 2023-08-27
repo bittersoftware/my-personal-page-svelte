@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Lang from '$lib/Localization/Lang.svelte';
 	import { getTimeDifference } from '$lib/utils/timeDifference';
 	import type { JobDescription } from '$lib/utils/types';
 
@@ -68,7 +69,7 @@
 									<p class="text-gray-500">{position.location}</p>
 								</div>
 							</div>
-							<p class="py-2">{@html position.description}</p>
+							<p class="py-2"><Lang p="Resume" w={position.description} /></p>
 							<div class="pb-4">
 								<p><strong>Projects: </strong>{position.projects}</p>
 								<p><strong>Tech Stack: </strong>{position.stack}</p>

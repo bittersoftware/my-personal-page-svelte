@@ -1,5 +1,6 @@
 <script lang="ts">
 	import lang from '$lib/Localization/Lang';
+	import linkedinLang from '$lib/Localization/LinkedinUrlLang';
 	import { slide } from 'svelte/transition';
 
 	let activeLanguage: string = 'us';
@@ -24,6 +25,7 @@
 		activeLanguage = flag;
 		showOptions = false;
 		lang.set(flag);
+		linkedinLang.set(flag);
 	}
 
 	function toggleOptions() {

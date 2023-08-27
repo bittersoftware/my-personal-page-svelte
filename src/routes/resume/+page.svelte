@@ -3,6 +3,9 @@
 	import Skills from '$lib/components/Skills.svelte';
 	import type { JobDescription } from '$lib/utils/types';
 
+	import Lang from '$lib/Localization/Lang.svelte';
+	import linkedinLang from '$lib/Localization/LinkedinUrlLang';
+
 	const jobDescriptions: JobDescription[] = [
 		{
 			companyName: 'Warner Bros Discovery',
@@ -15,17 +18,16 @@
 					startTime: new Date(2022, 9, 1),
 					endTime: undefined,
 					location: 'Madrid - Spain',
-					description:
-						'• Leading the test automation team across different countries for the Max and HBO Max projects, focusing on various models of TV decoders, Android TV, and Fire TV devices. <br> • Developing test automation frameworks to facilitate multi–device support with a unified code base.  Conducting onboarding sessions and delivering training to the Discovery+ team on utilizing the automation stack effectively.',
+					description: 'WBDLead',
 					projects: 'Max',
-					stack: 'Python, Github, Github Actions, API requests'
+					stack: 'Python, Github, Github Actions, API requests, Javascript'
 				},
 				{
 					positionTitle: 'SDET',
 					startTime: new Date(2021, 7, 2),
 					endTime: new Date(2022, 9, 30),
 					location: 'Madrid - Spain',
-					description: 'Second description: <strong> SDET </strong>',
+					description: 'WBDSDET',
 					projects: 'HBO Max',
 					stack: 'Python, Github'
 				}
@@ -42,20 +44,18 @@
 					startTime: new Date(2020, 2, 1),
 					endTime: new Date(2021, 7, 31),
 					location: 'Madrid - Spain',
-					description:
-						'• Developed a Python framework for automating set–top–box tests using real–time image and text analysis.  Implemented automatic report generation and test updates in Jira.',
+					description: 'EverisSpain',
 					projects: 'Rakuten - Telefonica Living Apps',
-					stack: 'Python, Github'
+					stack: 'Wireshark, stb-tester, Jira, Python'
 				},
 				{
 					positionTitle: 'System Specialist',
 					startTime: new Date(2018, 6, 1),
 					endTime: new Date(2020, 7, 30),
 					location: 'Curitiba - Brasil',
-					description:
-						'• Managed Everis team located at customer facilities to test Telefonica (Vivo) IPTV service for Latam. This involved conducting user story analysis, creating test cases, executing tests, and troubleshooting issues on the Global Video Platform.',
+					description: 'EverisBrasil',
 					projects: 'Vivo Play IPTV  (Global Video Platform for Latam)',
-					stack: 'Python, Github'
+					stack: 'Wireshark, Witbe, Jira, Python'
 				}
 			]
 		},
@@ -70,11 +70,10 @@
 					startTime: new Date(2014, 9, 1),
 					endTime: new Date(2018, 5, 30),
 					location: 'Madrid - Spain',
-					description:
-						'• Coordinated validation campaigns for Set–Top–Boxes, involving requirement analysis, test case creation, test execution and scripts for automated and performance tests. Worked with products utilizing DTH, ISDB–Tb, CATV, and IPTV technologies for the main providers at Latam, including on premise support and troubleshooting',
+					description: 'Sagemcom',
 					projects:
 						'Net (Brazil), Entel (Chile), Antel (Uruguay), Cablevision (Argentina), Vivo/GVT (Brazil), Telecentro (Argentina), YouTube Certification.',
-					stack: 'Python, Github'
+					stack: 'JSX, Middleware, RedRat, Witbe, TestLink, Bugzilla'
 				}
 			]
 		},
@@ -88,12 +87,11 @@
 					positionTitle: 'Embedded Systems Test Analyst',
 					startTime: new Date(2013, 2, 1),
 					endTime: new Date(2014, 9, 31),
-					location: 'Londria - Brazil',
-					description:
-						'• Coordinated validation campaigns for automotive embedded systems, involving requirement analysis, test case creation, execution, and development of scripts for automated tests for the main automotive companies:',
+					location: 'Londrina - Brazil',
+					description: 'GuenkaAnalyst',
 					projects:
 						'Ford: Truck tracker, Ford: Vehicle tracker, Fiat: mirror module, Volkswagen: electric window, Continental: BCU documentation ',
-					stack: 'Python, Github'
+					stack: 'SVC Tortoise, CANoe, CANalizer, BCU'
 				}
 			]
 		},
@@ -107,12 +105,11 @@
 					positionTitle: 'Embedded Systems Test Analyst',
 					startTime: new Date(2012, 5, 1),
 					endTime: new Date(2012, 11, 30),
-					location: 'Londrina - Brazil',
-					description:
-						'• Electrical projects for power station plants in Brazil, Colombia, Chile and USA.',
+					location: 'Medellin - Colombia',
+					description: 'HMV',
 					projects:
-						'Ford: Truck tracker, Ford: Vehicle tracker, Fiat: mirror module, Volkswagen: electric window, Continental: BCU documentation ',
-					stack: 'Python, Github'
+						'Six powerplants in Sao Paulo - Brazil, Brisas - Colombia, Barroso - Colombia, Rahue - Chile',
+					stack: 'Autocad, Elcad'
 				}
 			]
 		},
@@ -126,11 +123,10 @@
 					positionTitle: 'Test Intern',
 					startTime: new Date(2011, 2, 1),
 					endTime: new Date(2011, 11, 31),
-					location: 'Londria - Brazil',
-					description:
-						'• Validated automotive embedded systems, primarily vehicle trackers and BCUs, for renowned manufacturers such as Fiat, Volkswagen, Toyota, Continental, and Magneti Marelli. Utilized black box and white box testing methodologies.',
+					location: 'Londrina - Brazil',
+					description: 'GuenkaIntern',
 					projects: 'Continental: Vehicle Trackers, Continental: Body Control Unit (BCU)',
-					stack: 'Python, Github'
+					stack: 'SVC Tortoise, CANoe, CANalizer, BCU'
 				}
 			]
 		},
@@ -144,9 +140,8 @@
 					positionTitle: 'Quality Intern',
 					startTime: new Date(2010, 8, 1),
 					endTime: new Date(2011, 1, 28),
-					location: 'Londria - Brazil',
-					description:
-						'• Implemented the standardization of technical and administrative processes for ISO 9001 certification.',
+					location: 'Arapongas - Brazil',
+					description: 'Eleprojet',
 					projects: 'Continental: Vehicle Trackers, Continental: Body Control Unit (BCU)',
 					stack: 'Python, Github'
 				}
@@ -156,24 +151,32 @@
 </script>
 
 <div class="py-4 text-center sm:px-16 sm:text-start">
-	<h2 class="h2">About</h2>
+	<h2 class="h2"><Lang p="Resume" w="About" /></h2>
 	<div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
 		<div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
 			<div class="text-center my-4 sm:my-0 border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+10</h6>
-				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Years as QA</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">
+					<Lang p="Resume" w="Years" />
+				</p>
 			</div>
 			<div class="text-center my-4 sm:my-0 sm:border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+100M</h6>
-				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Users</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">
+					<Lang p="Resume" w="Users" />
+				</p>
 			</div>
 			<div class="text-center my-4 sm:my-0 border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+60</h6>
-				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Countries</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">
+					<Lang p="Resume" w="Countries" />
+				</p>
 			</div>
 			<div class="text-center my-4 sm:my-0">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+10</h6>
-				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">Video Platforms</p>
+				<p class="text-sm font-medium tracking-widest uppercase lg:text-base">
+					<Lang p="Resume" w="VideoPlatforms" />
+				</p>
 			</div>
 		</div>
 	</div>
@@ -196,10 +199,12 @@
 					/></svg
 				>
 			</span>
-			<span>Download My CV</span>
+			<span>
+				<Lang p="Resume" w="DownloadCV" />
+			</span>
 		</a>
 		<a
-			href="https://www.linkedin.com/in/leitethiago/?locale=en_US"
+			href="https://www.linkedin.com/in/leitethiago/?locale={$linkedinLang}"
 			target="_blank"
 			type="button"
 			class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
@@ -223,15 +228,7 @@
 	</div>
 	<div class="py-8 mx-4">
 		<blockquote class="h6">
-			I have been working with <strong>Quality Assurance</strong> and testing since 2011. My journey
-			began with automotive embedded systems, and later, I transitioned to Telecommunications and
-			video engineering. Throughout my career, I have had the opportunity to be part of projects
-			<strong> serving millions of end users</strong>, contributing to the delivery of top-quality
-			experiences in pay-TV, on-demand, and streaming services. Originally from Brazil, I am
-			currently residing in Madrid, Spain, where I lead an automation team dedicated to delivering
-			products of excellence. I am fluent in <strong>Portuguese, Spanish, and English</strong>. If
-			you'd like to connect, please feel free to reach out to me on LinkedIn or explore more about
-			me below.
+			<Lang p="Resume" w="Introduction" />
 		</blockquote>
 	</div>
 </div>
