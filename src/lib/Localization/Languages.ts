@@ -45,6 +45,11 @@ export const languages: {
         },
     },
     Projects: {
+        Projects: {
+            us: "Projects",
+            es: "Proyectos",
+            br: "Projetos",
+        },
         Max: {
             us: "Automation lead in new streaming service from Warner Bros Discovery launched in May 2023 in US to be expanded to Latam and Europe with more than 78 million users with HBO Max platform.",
             es: "Líder de Automatización en el nuevo servicio de transmisión de Warner Bros Discovery se lanzó en mayo de 2023 en EE. UU. y se expandirá a Latam y Europa con más de 78 millones de usuarios con la plataforma HBO Max",
@@ -74,7 +79,7 @@ export const languages: {
     Resume: {
         About: {
             us: "About me",
-            es: "Acerca de mí",
+            es: "Sobre mí",
             br: "Sobre mim"
         },
         Years: {
@@ -228,5 +233,31 @@ export const languages: {
             es: "• Implementé la estandarización de procesos técnicos y administrativos para la certificación ISO 9001.",
             br: "• Implementei a padronização de processos técnicos e administrativos para certificação ISO 9001.",
         },
+        Year: {
+            us: "year",
+            es: "año",
+            br: "ano"
+        },
+        Month: {
+            us: "month",
+            es: "mes",
+            br: "mes"
+        },
+        And: {
+            us: "and",
+            es: "y",
+            br: "e"
+        },
+        MonthPlural: {
+            us: "s",
+            es: "es",
+            br: "es"
+        },
+        Present: {
+            us: "Present",
+            es: "Presente",
+            br: "Presente"
+        }
+
     }
 };

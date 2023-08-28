@@ -1,13 +1,12 @@
 <script lang="ts">
 	import Lang from '$lib/Localization/Lang.svelte';
-	import { getTimeDifference } from '$lib/utils/timeDifference';
+	import TimeDiff from '$lib/utils/TimeDiff.svelte';
+	import FormatDate from '$lib/utils/formatDate.svelte';
 	import type { JobDescription } from '$lib/utils/types';
 
 	export let jobDescription: JobDescription;
 	const positions = jobDescription.position.length;
-	const options: Intl.DateTimeFormatOptions = { month: 'short', year: 'numeric' };
-	const formattedDate = (date: Date | undefined) =>
-		date ? date.toLocaleString('en-US', options) : 'Present';
+	const options: Intl.DateTimeFormatOptions = { month: 'long', year: 'numeric' };
 </script>
 
 <div class="flex">
@@ -24,7 +23,7 @@
 		<div class="mb-4">
 			<h4 class="text-xl">{jobDescription.companyName}</h4>
 			<p>
-				{getTimeDifference(jobDescription.startTime, jobDescription.endTime)}
+				<TimeDiff start_time={jobDescription.startTime} end_time={jobDescription.endTime} />
 			</p>
 		</div>
 		<div class="">
@@ -42,12 +41,14 @@
 							<div class="pb-2">
 								<div class="block sm:flex">
 									<p class="text-gray-500">
-										{formattedDate(position.startTime)} - {formattedDate(position.endTime)}
+										<FormatDate date={position.startTime} /> -
+										<FormatDate date={position.endTime} />
+										<!-- {formattedDate(position.startTime)} - {formattedDate(position.endTime)} -->
 									</p>
 									{#if positions != 1}
 										<p class="hidden sm:block sm:px-2">·</p>
 										<p class="text-gray-500">
-											{getTimeDifference(position.startTime, position.endTime)}
+											<TimeDiff start_time={position.startTime} end_time={position.endTime} />
 										</p>
 									{/if}
 								</div>
