@@ -70,12 +70,12 @@
 			</div>
 		{/each}
 	</div>
-	<div class="absolute inset-0 flex items-center justify-between px-12">
+	<div class="absolute inset-0 flex items-center justify-between px-24">
 		<button
 			on:click={previousSlideClick}
 			class="p-1 rounded-full shadows w-12 h-12 btn-icon bg-surface-300-600-token"
 		>
-			<a href="#slide2" class="flex btn btn-circle">❮</a>
+			<a href="#slide1" class="flex btn btn-circle">❮</a>
 		</button>
 		<button
 			on:click={nextSlideClick}
