@@ -15,7 +15,7 @@
 
 <section class="relative">
 	<!-- Hero - Image -->
-	<div class="flex justify-center w-80 sm:right-10 sm:mt-0 sm:absolute sm:w-5/12">
+	<!-- <div class="flex justify-center w-80 sm:right-10 sm:mt-0 sm:absolute sm:w-5/12">
 		<img
 			src="images/hero_image.png"
 			class="relative w-full -z-10"
@@ -24,7 +24,10 @@
 			width="320"
 			height="280"
 		/>
-	</div>
+	</div> -->
+
+	<!-- Hero Section -->
+
 	<div class="px-8 pb-4 sm:py-10 sm:px-40">
 		<!-- Hero -->
 		<!-- Hero - Introduction -->
@@ -36,7 +39,7 @@
 		</div>
 		<!-- Hero - Sub-text -->
 		<div class="py-5 sm:py-10">
-			<p class="h6 text-secondary-700-200-token"><Lang p="Hero" w="FirstSubText" /></p>
+			<p class="h6"><Lang p="Hero" w="FirstSubText" /></p>
 		</div>
 		<!-- Hero - CTA -->
 		<div class="flex justify-center pt-0 sm:justify-start">
