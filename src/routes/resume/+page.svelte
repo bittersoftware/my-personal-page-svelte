@@ -14,10 +14,10 @@
 			endTime: undefined,
 			position: [
 				{
-					positionTitle: 'Automation Lead',
+					positionTitle: 'AutomationLead',
 					startTime: new Date(2022, 9, 1),
 					endTime: undefined,
-					location: 'Madrid - Spain',
+					location: 'Spain',
 					description: 'WBDLead',
 					projects: 'Max',
 					stack: 'Python, Github, Github Actions, API requests, Javascript'
@@ -26,7 +26,7 @@
 					positionTitle: 'SDET',
 					startTime: new Date(2021, 7, 2),
 					endTime: new Date(2022, 9, 30),
-					location: 'Madrid - Spain',
+					location: 'Spain',
 					description: 'WBDSDET',
 					projects: 'HBO Max',
 					stack: 'Python, Github'
@@ -40,19 +40,19 @@
 			endTime: new Date(2021, 7, 31),
 			position: [
 				{
-					positionTitle: 'Test Specialist',
+					positionTitle: 'TestSpecialist',
 					startTime: new Date(2020, 2, 1),
 					endTime: new Date(2021, 7, 31),
-					location: 'Madrid - Spain',
+					location: 'Spain',
 					description: 'EverisSpain',
 					projects: 'Rakuten - Telefonica Living Apps',
 					stack: 'Wireshark, stb-tester, Jira, Python'
 				},
 				{
-					positionTitle: 'System Specialist',
+					positionTitle: 'SystemSpecialist',
 					startTime: new Date(2018, 6, 1),
 					endTime: new Date(2020, 7, 30),
-					location: 'Curitiba - Brasil',
+					location: 'Curitiba',
 					description: 'EverisBrasil',
 					projects: 'Vivo Play IPTV  (Global Video Platform for Latam)',
 					stack: 'Wireshark, Witbe, Jira, Python'
@@ -66,10 +66,10 @@
 			endTime: new Date(2018, 5, 30),
 			position: [
 				{
-					positionTitle: 'Test Specialist',
+					positionTitle: 'TestEngineer',
 					startTime: new Date(2014, 9, 1),
 					endTime: new Date(2018, 5, 30),
-					location: 'Madrid - Spain',
+					location: 'Curitiba',
 					description: 'Sagemcom',
 					projects:
 						'Net (Brazil), Entel (Chile), Antel (Uruguay), Cablevision (Argentina), Vivo/GVT (Brazil), Telecentro (Argentina), YouTube Certification.',
@@ -84,14 +84,14 @@
 			endTime: new Date(2014, 9, 31),
 			position: [
 				{
-					positionTitle: 'Embedded Systems Test Analyst',
+					positionTitle: 'EmbeddedSystemsTestAnalyst',
 					startTime: new Date(2013, 2, 1),
 					endTime: new Date(2014, 9, 31),
-					location: 'Londrina - Brazil',
+					location: 'Londrina',
 					description: 'GuenkaAnalyst',
 					projects:
 						'Ford: Truck tracker, Ford: Vehicle tracker, Fiat: mirror module, Volkswagen: electric window, Continental: BCU documentation ',
-					stack: 'SVC Tortoise, CANoe, CANalizer, BCU'
+					stack: 'SVN Tortoise, CANoe, CANalizer'
 				}
 			]
 		},
@@ -102,10 +102,10 @@
 			endTime: new Date(2012, 11, 30),
 			position: [
 				{
-					positionTitle: 'Embedded Systems Test Analyst',
+					positionTitle: 'TraineeEngineer',
 					startTime: new Date(2012, 5, 1),
 					endTime: new Date(2012, 11, 30),
-					location: 'Medellin - Colombia',
+					location: 'Colombia',
 					description: 'HMV',
 					projects:
 						'Six powerplants in Sao Paulo - Brazil, Brisas - Colombia, Barroso - Colombia, Rahue - Chile',
@@ -120,13 +120,13 @@
 			endTime: new Date(2011, 11, 31),
 			position: [
 				{
-					positionTitle: 'Test Intern',
+					positionTitle: 'TestIntern',
 					startTime: new Date(2011, 2, 1),
 					endTime: new Date(2011, 11, 31),
-					location: 'Londrina - Brazil',
+					location: 'Londrina',
 					description: 'GuenkaIntern',
 					projects: 'Continental: Vehicle Trackers, Continental: Body Control Unit (BCU)',
-					stack: 'SVC Tortoise, CANoe, CANalizer, BCU'
+					stack: 'SVN Tortoise, CANoe, CANalizer'
 				}
 			]
 		},
@@ -137,13 +137,13 @@
 			endTime: new Date(2011, 1, 28),
 			position: [
 				{
-					positionTitle: 'Quality Intern',
+					positionTitle: 'QualityIntern',
 					startTime: new Date(2010, 8, 1),
 					endTime: new Date(2011, 1, 28),
-					location: 'Arapongas - Brazil',
+					location: 'Arapongas',
 					description: 'Eleprojet',
-					projects: 'Continental: Vehicle Trackers, Continental: Body Control Unit (BCU)',
-					stack: 'Python, Github'
+					projects: 'ISO 9001',
+					stack: 'PDCA'
 				}
 			]
 		}
@@ -182,7 +182,8 @@
 	</div>
 	<div class="justify-center pt-4 gap-x-4 sm:flex">
 		<a
-			href="/resume"
+			href="https://drive.google.com/file/d/1w-7HcrX6svz4F1UzRyu_42OlNpP3a9fe/view?usp=sharing"
+			target="_blank"
 			type="button"
 			class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
 		 inline-flex items-center"

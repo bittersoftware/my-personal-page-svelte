@@ -37,13 +37,12 @@
 							{#if positions > 1}
 								<span class="-left-12 top-4 relative block rounded-full h-2 w-2 bg-surface-500" />
 							{/if}
-							<p class="font-bold text-lg">{position.positionTitle}</p>
+							<p class="font-bold text-lg"><Lang p="Resume" w={position.positionTitle} /></p>
 							<div class="pb-2">
 								<div class="block sm:flex">
 									<p class="text-gray-500">
 										<FormatDate date={position.startTime} /> -
 										<FormatDate date={position.endTime} />
-										<!-- {formattedDate(position.startTime)} - {formattedDate(position.endTime)} -->
 									</p>
 									{#if positions != 1}
 										<p class="hidden sm:block sm:px-2">·</p>
@@ -67,12 +66,14 @@
 											/>
 										</g></svg
 									>
-									<p class="text-gray-500">{position.location}</p>
+									<p class="text-gray-500">
+										<Lang p="Resume" w={position.location} />
+									</p>
 								</div>
 							</div>
 							<p class="py-2"><Lang p="Resume" w={position.description} /></p>
 							<div class="pb-4">
-								<p><strong>Projects: </strong>{position.projects}</p>
+								<p><strong><Lang p="Resume" w="Projects" />: </strong>{position.projects}</p>
 								<p><strong>Tech Stack: </strong>{position.stack}</p>
 							</div>
 						</div>

@@ -114,8 +114,8 @@ export const languages: {
         },
         Introduction: {
             us: " I have been working with <strong>Quality Assurance</strong > and testing since 2011. My journey began with automotive embedded systems, and later, I transitioned to Telecommunications and video engineering.Throughout my career, I have had the opportunity to be part of projects <strong> serving millions of end users</strong >, contributing to the delivery of top- quality experiences in pay - TV, on - demand, and streaming services.Originally from Brazil, I am currently residing in Madrid, Spain, where I lead an automation team dedicated to delivering products of excellence.I am fluent in <strong>Portuguese, Spanish, and English </strong>. If you'd like to connect, please feel free to reach out to me on LinkedIn or explore more about me below.",
-            es: "Trabajo con <strong>Quality Assurance</strong > y pruebas desde 2011. Mi viaje comenzó con los sistemas embebidos automotrices y luego hice la transición a la ingeniería de Telecomunicaciones y video. A lo largo de mi carrera, he tenido la oportunidad de ser parte de proyectos <strong> que atienden a millones de usuarios finales</strong >, contribuyendo a la entrega de experiencias de alta calidad en servicios de televisión paga, bajo demanda y streaming. Originario de Brasil, actualmente resido en Madrid, España, donde dirijo un equipo de automatización dedicado a entregar productos de excelencia. Hablo <strong>portugués, español e inglés</strong> con fluidez. Si desea conectarse, no dude en comunicarse conmigo en LinkedIn o explorar más sobre mí a continuación.",
-            br: "Trabalho com <strong>Quality Assurance</strong > e testes desde 2011. Minha jornada começou com sistemas embarcados automotivos e posteriormente fiz a transição para Engenharia de Telecomunicações e Vídeo. de projetos <strong> atendendo milhões de usuários finais</strong >, contribuindo para a entrega de experiências de alta qualidade em serviços de TV paga, sob demanda e streaming. Originária do Brasil, atualmente resido em Madri, Espanha, onde lidero uma equipe de automação dedicada a entregar produtos de excelência. Sou fluente em <strong>português, espanhol e inglês</strong>. Se desejar se conectar, sinta-se à vontade para entrar em contato comigo no LinkedIn ou explorar mais sobre mim abaixo."
+            es: "Trabajo con <strong>Quality Assurance</strong > y pruebas desde 2011. Mi viaje comenzó con los sistemas embebidos automotrices y luego hice la transición a la ingeniería de Telecomunicaciones y video. A lo largo de mi carrera, he tenido la oportunidad de ser parte de proyectos <strong> que atienden a millones de usuarios finales</strong >, contribuyendo a la entrega de experiencias de alta calidad en servicios de televisión paga, bajo demanda y streaming. Originario de Brasil, actualmente resido en Madrid, España, donde dirijo un equipo de automatización dedicado a entregar productos de excelencia. Hablo <strong>portugués, español e inglés</strong> con fluidez. Si desea conectarse, no dude en comunicarse conmigo en LinkedIn o vea más sobre mí a continuación.",
+            br: "Trabalho com <strong>Quality Assurance</strong > e testes desde 2011. Minha jornada começou com sistemas embarcados automotivos e posteriormente fiz a transição para Engenharia de Telecomunicações e Vídeo. de projetos <strong> atendendo milhões de usuários finais</strong >, contribuindo para a entrega de experiências de alta qualidade em serviços de TV paga, sob demanda e streaming. Originária do Brasil, atualmente resido em Madri, Espanha, onde lidero uma equipe de automação dedicada a entregar produtos de excelência. Sou fluente em <strong>português, espanhol e inglês</strong>. Se desejar se conectar, sinta-se à vontade para entrar em contato comigo no LinkedIn ou veja mais sobre mim abaixo."
         },
         Skills: {
             us: "Skills",
@@ -190,18 +190,18 @@ export const languages: {
         },
         WBDLead: {
             us: "• Leading the test automation team across different countries for the Max and HBO Max projects, focusing on various models of TV decoders, Android TV, and Fire TV devices. <br> • Developing test automation frameworks to facilitate multi–device support with a unified code base.  Conducting onboarding sessions and delivering training to the Discovery+ team on utilizing the automation stack effectively.",
-            es: "• Liderar el equipo de automatización de pruebas en diferentes países para los proyectos Max y HBO Max, enfocándose en varios modelos de decodificadores de TV, Android TV y dispositivos Fire TV. <br> • Desarrollar marcos de automatización de pruebas para facilitar el soporte de múltiples dispositivos con una base de código unificada. Llevar a cabo sesiones de incorporación y brindar capacitación al equipo de Discovery+ sobre cómo utilizar la pila de automatización de manera efectiva.",
-            br: "• Liderando a equipe de automação de testes em diferentes países para os projetos Max e HBO Max, com foco em vários modelos de decodificadores de TV, Android TV e dispositivos Fire TV. <br> • Desenvolvimento de estruturas de automação de testes para facilitar o suporte a vários dispositivos com uma base de código unificada. Conduzindo sessões de integração e ministrando treinamento à equipe do Discovery+ sobre como utilizar a pilha de automação de forma eficaz.",
+            es: "• Liderar el equipo de automatización de pruebas en diferentes países para los proyectos Max y HBO Max, enfocándose en varios modelos de decodificadores de TV, Android TV y dispositivos Fire TV. <br> • Desarrollar marcos de automatización de pruebas para facilitar el soporte de múltiples dispositivos con una base de código unificada. Realizar sesiones de incorporación y brindar capacitación al equipo de Discovery+ sobre cómo utilizar la pila de automatización de manera efectiva.",
+            br: "• Liderança da equipe de automação de testes em diferentes países para os projetos Max e HBO Max, com foco em diversos modelos de decodificadores de TV, Android TV e dispositivos Fire TV. <br> • Desenvolvimento de estruturas de automação de testes para facilitar o suporte a vários dispositivos com uma base de código unificada. Conduzindo sessões de integração e ministrando treinamento à equipe do Discovery+ sobre como utilizar a pilha de automação de maneira eficaz.",
         },
         WBDSDET: {
-            us: "• Developing comprehensive test automation efforts within the HBO Max project, encompassing diverse device types. Simultaneously, optimized the automation framework for enhanced versatility and adaptability.",
-            es: "• Desarrollando automatización de pruebas dentro del proyecto HBO Max, abarcando diversos tipos de dispositivos. Al mismo tiempo, optimizando el marco de automatización para mejorar la versatilidad y adaptabilidad.",
-            br: "• Desenvolvendo automação de testes dentro do projeto HBO Max, abrangendo diversos tipos de dispositivos. Simultaneamente, otimizando a estrutura de automação para maior versatilidade e adaptabilidade.",
+            us: "• Developing escalable automatable tests within the HBO Max project, encompassing diverse device types. Simultaneously, optimized the automation framework for enhanced versatility and adaptability.",
+            es: "• Desarrollando automatización de pruebas escalables dentro del proyecto HBO Max, abarcando diversos tipos de dispositivos. Al mismo tiempo, optimizando el marco de automatización para mejorar la versatilidad y adaptabilidad.",
+            br: "• Desenvolvendo automação de testes escalonáveis dentro do projeto HBO Max, abrangendo diversos tipos de dispositivos. Simultaneamente, otimizando a estrutura de automação para maior versatilidade e adaptabilidade.",
         },
         EverisSpain: {
-            us: "• Developed a Python framework for automating set–top–box tests using real–time image and text analysis.  Implemented automatic report generation and test updates in Jira.",
-            es: "• Desarrollé un marco Python para automatizar pruebas de decodificadores utilizando análisis de texto e imágenes en tiempo real. Implementé la generación automática de informes y actualizaciones de prueba en Jira.",
-            br: "• Desenvolvi um framework Python para automatizar testes de set-top-box usando imagens em tempo real e análise de texto. Implementada geração automática de relatórios e atualizações de testes no Jira.",
+            us: "• Developing a Python framework for automating set–top–box tests using real–time image and text analysis.  Implemented automatic report generation and test updates in Jira.",
+            es: "• Desarrollando un framework en Python para automatizar pruebas de decodificadores utilizando análisis de texto e imágenes en tiempo real. Implementé la generación automática de informes y actualizaciones de prueba en Jira.",
+            br: "• Desenvolvendo um framework Python para automatizar testes de set-top-box usando imagens em tempo real e análise de texto. Implementei geração automática de relatórios e atualizações de testes no Jira.",
         },
         EverisBrasil: {
             us: "• Managed Everis team located at customer facilities to test Telefonica (Vivo) IPTV service for Latam. This involved conducting user story analysis, creating test cases, executing tests, and troubleshooting issues on the Global Video Platform.",
@@ -257,7 +257,81 @@ export const languages: {
             us: "Present",
             es: "Presente",
             br: "Presente"
+        },
+        Londrina: {
+            us: "Londrina - Brazil",
+            es: "Londrina - Brasil",
+            br: "Londrina - Brasil"
+        },
+        Curitiba: {
+            us: "Curitiba - Brazil",
+            es: "Curitiba - Brasil",
+            br: "Curitiba - Brasil"
+        },
+        Arapongas: {
+            us: "Arapongas - Brazil",
+            es: "Arapongas - Brasil",
+            br: "Arapongas - Brasil"
+        },
+        Spain: {
+            us: "Madrid - Spain",
+            es: "Madrid - España",
+            br: "Madri - Espanha"
+        },
+        Colombia: {
+            us: "Medellin - Colombia",
+            es: "Medellín - Colombia",
+            br: "Medellín - Colômbia"
+        },
+        AutomationLead: {
+            us: "Automation Lead",
+            es: "Líder de automatización",
+            br: "Líder de Automação"
+        },
+        SDET: {
+            us: "SDET - Software Developer Engineer in Test",
+            es: "SDET - Ingeniero de Desarrollo de Software en Pruebas",
+            br: "SDET - Engenheiro Desenvolvedor de Software em Teste"
+        },
+        TestSpecialist: {
+            us: "Test Specialist",
+            es: "Especialista en pruebas",
+            br: "Especialista em Testes"
+        },
+        SystemSpecialist: {
+            us: "Test Specialist",
+            es: "Especialista en sistemas",
+            br: "Especialista em sistemas"
+        },
+        TestEngineer: {
+            us: "Test Engineer",
+            es: "Ingeniero de Pruebas",
+            br: "Engenheiro de Testes"
+        },
+        EmbeddedSystemsTestAnalyst: {
+            us: "Embedded Systems Test Analyst",
+            es: "Analista de Pruebas de Sistemas Embebidos",
+            br: "Analista de Testes de Sistemas Embarcados"
+        },
+        TraineeEngineer: {
+            us: "Trainee Engineer",
+            es: "Ingeniero Trainee",
+            br: "Engenheiro Trainee"
+        },
+        TestIntern: {
+            us: "Test Intern",
+            es: "Becário de pruebas",
+            br: "Estagiário de testes"
+        },
+        QualityIntern: {
+            us: "Quality Intern",
+            es: "Becário de Calidad",
+            br: "Estagiário de Qualidade"
+        },
+        Projects: {
+            us: "Projects",
+            es: "Proyectos",
+            br: "Projetos"
         }
-
     }
 };
