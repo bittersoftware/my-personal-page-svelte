@@ -15,24 +15,24 @@
 
 <section class="relative">
 	<!-- Hero - Image -->
-	<!-- <div class="flex justify-center w-80 sm:right-10 sm:mt-0 sm:absolute sm:w-5/12">
+	<div
+		class="hidden md:block md:right-10 lg:right-36 xl:right-10 md:mt-0 md:absolute md:w-5/12 lg:w-4/12 xl:w-5/12"
+	>
 		<img
 			src="images/hero_image.png"
-			class="relative w-full -z-10"
+			class="relative"
 			alt="computer with linkedin profile"
 			loading="lazy"
-			width="320"
-			height="280"
 		/>
-	</div> -->
+	</div>
 
 	<!-- Hero Section -->
 
-	<div class="px-8 pb-4 sm:py-10 sm:px-40">
+	<div class="pt-12 px-8 pb-4 sm:pt-10 sm:pb-24 sm:px-40">
 		<!-- Hero -->
 		<!-- Hero - Introduction -->
-		<h1 class="h6 pt-4 sm:pb-2 sm:pt-10 sm:h5"><Lang p="Hero" w="Introduction" /></h1>
-		<h1 class="h3 pb-5 sm:pb-10 sm:text-3xl">Thiago Bittencourt</h1>
+		<h1 class="pt-4  sm:pb-2 sm:pt-10 sm:h5"><Lang p="Hero" w="Introduction" /></h1>
+		<h1 class="h3 font-semibold pb-5 sm:pb-10 sm:text-3xl">Thiago Bittencourt</h1>
 		<div class="flex font-extrabold text-3xl lg:text-7xl">
 			<h1 class="h1 pr-3 text-4xl sm:pr-4 sm:text-7xl"><Lang p="Hero" w="Im" /></h1>
 			<div class="h1 text-primary-500 text-4xl sm:text-7xl"><span class="element" /></div>
@@ -42,12 +42,12 @@
 			<p class="h6"><Lang p="Hero" w="FirstSubText" /></p>
 		</div>
 		<!-- Hero - CTA -->
-		<div class="flex justify-center pt-0 sm:justify-start">
+		<div class="flex justify-center pt-6 sm:pt-0 sm:justify-start">
 			<a
 				href="/resume"
 				type="button"
-				class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
-				 inline-flex items-center"
+				class="btn bg-primary-500 h6 font-bold py-2 px-4 rounded
+				 inline-flex items-center text-white "
 			>
 				<span>
 					<svg

@@ -5,10 +5,10 @@
 	export let project: Project;
 </script>
 
-<div class="mb-2 mx-auto pr-2 sm:mb-10 sm:px-24 lg:px-48">
+<div class="mb-6 mx-auto pr-2 sm:mb-10 sm:px-24 lg:px-48">
 	<!-- Carousel Body -->
 	<div
-		class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl"
+		class="relative rounded-lg block md:flex items-center bg-gray-200 shadow-xl"
 		style="min-height: 19rem;"
 	>
 		<div
@@ -21,13 +21,13 @@
 				alt="project logo"
 			/>
 		</div>
-		<div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+		<div class="w-full md:w-3/5 h-full flex items-center bg-gray-200 rounded-lg">
 			<div class="px-4 py-2 sm:p-12 sm::pr-24 sm:pl-16 sm:py-12">
 				<h4 class="h4 pb-4 text-black">{project.name}</h4>
 				<p class="pb-4 sm:pb-0 text-gray-600"><Lang p="Projects" w={project.description} /></p>
 			</div>
 			<svg
-				class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12"
+				class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-200 -ml-12"
 				viewBox="0 0 100 100"
 				preserveAspectRatio="none"
 			>

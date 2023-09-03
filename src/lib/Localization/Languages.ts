@@ -12,9 +12,9 @@ export const languages: {
             br: "Home",
         },
         Resume: {
-            us: "Resumé",
-            es: "Hoja de Vida",
-            br: "Currículo",
+            us: "Techinical Experience",
+            es: "Experiencia Técnica",
+            br: "Experiência Técnica",
         },
         Mystuff: {
             us: "My Stuff",
@@ -46,9 +46,9 @@ export const languages: {
     },
     Projects: {
         Projects: {
-            us: "Projects",
-            es: "Proyectos",
-            br: "Projetos",
+            us: "Some of my projects",
+            es: "Algunos de mís proyectos",
+            br: "Alguns dos meus Projetos",
         },
         Max: {
             us: "Automation lead in new streaming service from Warner Bros Discovery launched in May 2023 in US to be expanded to Latam and Europe with more than 78 million users with HBO Max platform.",
@@ -93,9 +93,9 @@ export const languages: {
             br: "USUÁRIOS",
         },
         Countries: {
-            us: "COUNTRIES WITH CUSTOMERS",
-            es: "PAÍSES CON CLIENTES",
-            br: "PAÍSES COM CLIENTES",
+            us: "COUNTRIES REACHED",
+            es: "PAÍSES ALCANZADOS",
+            br: "PAÍSES ALCANÇADOS",
         },
         VideoPlatforms: {
             us: "VIDEO PLATFORMS",

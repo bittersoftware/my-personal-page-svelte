@@ -9,7 +9,7 @@
 	const options: Intl.DateTimeFormatOptions = { month: 'long', year: 'numeric' };
 </script>
 
-<div class="flex">
+<div class="flex pr-4 sm:pr-0">
 	<div class="col-1 px-4">
 		<div class="grow-0 w-14">
 			<img

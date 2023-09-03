@@ -60,9 +60,10 @@
 </script>
 
 <div class="hidden sm:pb-4 sm:block sm:overflow-hidden sm:relative">
+	<!-- Magic numbers to avoid horizontal displacement when nav to next project cards -->
 	<div
 		class="flex transition-transform ease-out duration-300"
-		style="transform: translateX(-{index * 100}%)"
+		style="transform: translateX(-{index * (100 + index * 0.15)}%)"
 	>
 		{#each projects as project}
 			<div class="flex-shrink-0 w-screen">

@@ -152,7 +152,7 @@
 
 <div class="py-4 text-center sm:px-16 sm:text-start">
 	<h2 class="h2"><Lang p="Resume" w="About" /></h2>
-	<div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+	<div class="px-4 mx-auto pt-16 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:pt-24 lg:pt-24 ">
 		<div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
 			<div class="text-center my-4 sm:my-0 border-r">
 				<h6 class="text-4xl font-bold lg:text-5xl xl:text-6xl">+10</h6>
@@ -180,12 +180,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="justify-center pt-4 gap-x-4 sm:flex">
+	<div class="justify-center py-24  gap-x-4 sm:flex">
 		<a
 			href="https://drive.google.com/file/d/1w-7HcrX6svz4F1UzRyu_42OlNpP3a9fe/view?usp=sharing"
 			target="_blank"
 			type="button"
-			class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
+			class="btn bg-primary-500 text-white h6 font-bold py-2 px-4 rounded
 		 inline-flex items-center"
 		>
 			<span>
@@ -208,8 +208,8 @@
 			href="https://www.linkedin.com/in/leitethiago/?locale={$linkedinLang}"
 			target="_blank"
 			type="button"
-			class="btn variant-filled-surface h6 font-bold py-2 px-4 rounded
-	 inline-flex items-center my-2 sm:my-0"
+			class="btn bg-primary-500 text-white h6 font-bold py-2 px-4 rounded
+	 inline-flex items-center mt-4 sm:mt-0"
 		>
 			<span>
 				<svg class="stroke-white w-8 h-8 inline-flex" viewBox="0 0 72 72"
@@ -227,14 +227,14 @@
 			</span></a
 		>
 	</div>
-	<div class="py-8 mx-4">
-		<blockquote class="h6">
+	<div class="pb-8 mx-4 sm:mx-0">
+		<blockquote class="h6 border-gray-300 border-2 p-4 rounded-lg">
 			<Lang p="Resume" w="Introduction" />
 		</blockquote>
 	</div>
 </div>
 <Skills />
-<div class="sm:px-12 sm:py-2">
+<div class="pt-12 sm:px-12 sm:py-2">
 	<h2 class="h2 text-center pb-6 sm:px-4 sm:text-start">Experience</h2>
 	<ul>
 		{#each jobDescriptions as job}
