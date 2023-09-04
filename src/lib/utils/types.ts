@@ -26,3 +26,24 @@ export type JobDescription = {
     endTime: Date | undefined;
     position: JobPosition[];
 }
+
+export type GitHubProject = {
+    name: string;
+    description: string;
+    author: string;
+    image: string;
+    avatar: string;
+    lastUpdate: Date;
+    url: string;
+}
+
+export type YouTubeVideo = {
+    url: string;
+    index: number;
+}
+
+export type NavItem = {
+    title: string;
+    href: string;
+};
+

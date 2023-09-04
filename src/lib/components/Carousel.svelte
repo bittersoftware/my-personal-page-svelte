@@ -1,34 +1,6 @@
 <script lang="ts">
-	import type { Project } from '$lib/utils/types';
+	import { projects } from '$lib/data/carrouselProject';
 	import ProjectCard from './ProjectCard.svelte';
-	const projects: Project[] = [
-		{
-			name: 'Max',
-			image: 'images/projects/max.png',
-			description: 'Max'
-		},
-		{
-			name: 'HBO Max',
-			image: 'images/projects/hbo_max.png',
-			description: 'HBOMax'
-		},
-		{
-			name: 'Rakuten Living Apps',
-			image: 'images/projects/rakuten.png',
-			description: 'Rakuten'
-		},
-
-		{
-			name: 'Vivo Play TV',
-			image: 'images/projects/vivo_play.png',
-			description: 'Vivo'
-		},
-		{
-			name: 'Entel',
-			image: 'images/projects/entel.png',
-			description: 'Entel'
-		}
-	];
 
 	let index = 0;
 	let stopAutoSlide = false;
@@ -71,7 +43,7 @@
 			</div>
 		{/each}
 	</div>
-	<div class="absolute inset-0 flex items-center justify-between px-24">
+	<div class="absolute inset-0 flex items-center justify-between sm:px-2 xl:px-24">
 		<button
 			on:click={previousSlideClick}
 			class="p-1 rounded-full shadows w-12 h-12 btn-icon bg-surface-300-600-token"

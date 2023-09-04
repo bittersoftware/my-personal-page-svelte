@@ -34,9 +34,9 @@ export const languages: {
             br: "Sou",
         },
         FirstSubText: {
-            us: "Combining technical expertise, teamwork and leadership,<br> to bring high level Software Quality.",
-            es: "Combinando experiencia técnica, trabajo en equipo y liderazgo,<br> para brindar una calidad de software de alto nivel.",
-            br: "Combinando conhecimento técnico, trabalho em equipe e liderança,<br> para trazer qualidade de software de alto nível.",
+            us: "Combining technical expertise, teamwork and leadership, to bring high level Software Quality.",
+            es: "Combinando experiencia técnica, trabajo en equipo y liderazgo, para brindar una calidad de software de alto nivel.",
+            br: "Combinando conhecimento técnico, trabalho em equipe e liderança, para trazer qualidade de software de alto nível.",
         },
         CTA: {
             us: "Check out my CV",

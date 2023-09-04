@@ -16,7 +16,7 @@
 <section class="relative">
 	<!-- Hero - Image -->
 	<div
-		class="hidden md:block md:right-10 lg:right-36 xl:right-10 md:mt-0 md:absolute md:w-5/12 lg:w-4/12 xl:w-5/12"
+		class="hidden md:hidden lg:block lg:absolute lg:right-8 xl:right-10 md:w-5/12 lg:w-4/12 xl:w-5/12 2xl:w-5/12"
 	>
 		<img
 			src="images/hero_image.png"
@@ -28,18 +28,18 @@
 
 	<!-- Hero Section -->
 
-	<div class="pt-12 px-8 pb-4 sm:pt-10 sm:pb-24 sm:px-40">
+	<div class="pt-12 px-8 pb-4 sm:pt-10 sm:pb-24 md:px-12 lg:px-12 xl:px-40">
 		<!-- Hero -->
 		<!-- Hero - Introduction -->
-		<h1 class="pt-4  sm:pb-2 sm:pt-10 sm:h5"><Lang p="Hero" w="Introduction" /></h1>
+		<h1 class="pt-4 sm:pb-2 sm:pt-10 sm:h5"><Lang p="Hero" w="Introduction" /></h1>
 		<h1 class="h3 font-semibold pb-5 sm:pb-10 sm:text-3xl">Thiago Bittencourt</h1>
 		<div class="flex font-extrabold text-3xl lg:text-7xl">
-			<h1 class="h1 pr-3 text-4xl sm:pr-4 sm:text-7xl"><Lang p="Hero" w="Im" /></h1>
+			<h1 class="h1 pr-3 text-4xl sm:pr-4 lg:text-7xl"><Lang p="Hero" w="Im" /></h1>
 			<div class="h1 text-primary-500 text-4xl sm:text-7xl"><span class="element" /></div>
 		</div>
 		<!-- Hero - Sub-text -->
 		<div class="py-5 sm:py-10">
-			<p class="h6"><Lang p="Hero" w="FirstSubText" /></p>
+			<p class="h6 sm:w-6/12"><Lang p="Hero" w="FirstSubText" /></p>
 		</div>
 		<!-- Hero - CTA -->
 		<div class="flex justify-center pt-6 sm:pt-0 sm:justify-start">
@@ -47,7 +47,7 @@
 				href="/resume"
 				type="button"
 				class="btn bg-primary-500 h6 font-bold py-2 px-4 rounded
-				 inline-flex items-center text-white "
+				 inline-flex items-center text-white"
 			>
 				<span>
 					<svg

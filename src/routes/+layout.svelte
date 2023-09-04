@@ -6,7 +6,9 @@
 	// Most of your app wide CSS should be put in this file
 	import Navbar from '$lib/components/Navbar.svelte';
 	import { AppShell, autoModeWatcher } from '@skeletonlabs/skeleton';
+	import { fly } from 'svelte/transition';
 	import '../app.postcss';
+	export let data;
 </script>
 
 <svelte:head
@@ -17,7 +19,11 @@
 	<svelte:fragment slot="header">
 		<Navbar />
 	</svelte:fragment>
-	<slot />
+	{#key data.url}
+		<div in:fly={{ x: -200, duration: 200, delay: 200 }} out:fly={{ x: 200, duration: 200 }}>
+			<slot />
+		</div>
+	{/key}
 	<!-- (pageFooter) -->
 	<!-- <svelte:fragment slot="footer"><span class="hidden sm:block">footer</span></svelte:fragment> -->
 </AppShell>

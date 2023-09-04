@@ -6,25 +6,7 @@
 	import { AppBar, LightSwitch } from '@skeletonlabs/skeleton';
 	import { slide } from 'svelte/transition';
 
-	type NavItem = {
-		title: string;
-		href: string;
-	};
-
-	const navItems: NavItem[] = [
-		{
-			title: 'Home',
-			href: '/'
-		},
-		{
-			title: 'Resume',
-			href: '/resume'
-		},
-		{
-			title: 'Mystuff',
-			href: '/my_stuff'
-		}
-	];
+	import { navItems } from '$lib/data/navItems';
 
 	$: routeId = $page.route.id;
 	export let isOpen: boolean = false;
@@ -56,8 +38,9 @@
 </div>
 
 <AppBar
-	gridColumns="grid-cols-3"
-	slotDefault="sm:place-self-center"
+	gridColumns="grid-cols-3 sm:grid-cols-9"
+	slotLead="place-content-start "
+	slotDefault="sm:place-self-center sm:col-span-7"
 	slotTrail="place-content-end"
 	gap="gap-0 sm:gap-4"
 	padding="py-0 sm:p-2"
@@ -76,28 +59,30 @@
 			</svg></a
 		>
 	</svelte:fragment>
-	<nav class="hidden sm:flex">
-		<ul>
-			{#each navItems as { title, href }}
-				<li class="sm:inline-block">
-					<a
-						on:click={handleClick}
-						class="text-center block mt-1 px-6 py-1 font-medium group transition duration-300
+	<svelte:fragment slot="default">
+		<nav class="hidden sm:flex">
+			<ul>
+				{#each navItems as { title, href }}
+					<li class="sm:inline-block">
+						<a
+							on:click={handleClick}
+							class="text-center block mt-1 px-6 py-1 font-medium group transition duration-300
                         {routeId == href
-							? 'underline underline-offset-8 decoration-sky-500 hover:decoration-white'
-							: ''}"
-						{href}
-					>
-						<Lang p="Nav" w={title} />
-						<span
-							class="block max-w-0 group-hover:max-w-full transition-all duration-500
+								? 'underline underline-offset-8 decoration-sky-500 hover:decoration-white'
+								: ''}"
+							{href}
+						>
+							<Lang p="Nav" w={title} />
+							<span
+								class="block max-w-0 group-hover:max-w-full transition-all duration-500
                             h-0.5 bg-secondary-800-100-token"
-						/>
-					</a>
-				</li>
-			{/each}
-		</ul>
-	</nav>
+							/>
+						</a>
+					</li>
+				{/each}
+			</ul>
+		</nav>
+	</svelte:fragment>
 	<svelte:fragment slot="trail">
 		<LightSwitch />
 		<LanguageSelector />

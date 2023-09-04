@@ -19,6 +19,7 @@
 		"@skeletonlabs/skeleton": "^2.0.0",
 		"@skeletonlabs/tw-plugin": "^0.1.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^2.0.8",
 		"@sveltejs/kit": "^1.5.0",
 		"@tailwindcss/forms": "^0.5.4",
 		"@tailwindcss/typography": "^0.5.9",
@@ -46,6 +47,7 @@
 	"type": "module",
 	"dependencies": {
 		"circle-flags": "github:HatScripts/circle-flags",
+		"octokit": "^3.1.0",
 		"typed.js": "^2.0.16"
 	}
 }
