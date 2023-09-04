@@ -2,25 +2,6 @@
 	import Carousel from '$lib/components/Carousel.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Lang from '$lib/Localization/Lang.svelte';
-
-	let images = [
-		{
-			title: 'Max',
-			src: 'images/max.jpeg'
-		},
-		{
-			title: 'Max',
-			src: 'images/max.jpeg'
-		},
-		{
-			title: 'Max',
-			src: 'images/max.jpeg'
-		},
-		{
-			title: 'Max',
-			src: 'images/max.jpeg'
-		}
-	];
 </script>
 
 <Hero />
