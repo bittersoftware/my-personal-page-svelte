@@ -1,38 +1,91 @@
-# create-svelte
+<!-- PROJECT LOGO -->
+<br />
+<div align="left">
+  <div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="static/images/my_stuff/my_personal_page.png" alt="Logo" width="600" height="250">
+  </a>
+  </div>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+  <h3 align="left">My Personal Page</h3>
 
-## Creating a project
+  <p>
+    I have made this project to start exploring different tools and framework for web development.
+    <ul>
+      <li>
+    Frontend: Svelte    
+      </li>
+    <li>
+      Backend: Sveltekit
+    </li>
+    <li>
+    SkeletonUI: Superset of Tailwind for Svelte
+    </li>
+    <li>
+    Deploy: Netify
+    </li>
+    </ul>
+    <br />
+    <a href="https://thiago-bittencourt.netlify.app/"><strong>Check out the page here</strong></a>
+    <br />
+</div>
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Built With
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+* [![Svelte][Svelte.dev]][Svelte-url]
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
-## Building
+## Getting Started
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
+### Prerequisites
 
-You can preview the production build with `npm run preview`.
+Install node
+  ```sh
+  npm install npm@latest -g
+  ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/bittersoftware/my-personal-page-svelte.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Enter your Githu API in `.env`
+   ```sh
+   PRIVATE_GITHUB_API=YOUR_API
+   ```
+4. Run the server
+   ```sh
+   npm run dev
+   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Translate My Stuff page
+- [ ] Scroll to the top when changing routes
+- [ ] Improve performance to load iframe in My Stuff > YouTube embedded videos
+- [ ] Add urls for projects in Home > Carousel
+- [ ] Make Hero less terrible in different screen resolutions
+
+<!-- CONTACT -->
+## Contact
+
+Thiago - [@thiagobitten](https://twitter.com/thiagobitten)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
