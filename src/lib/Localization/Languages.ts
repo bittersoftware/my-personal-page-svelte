@@ -148,9 +148,9 @@ export const languages: {
             br: "Ferramentas de Teste",
         },
         TestToolsList: {
-            us: "stb - tester<br> Selenium<br> adb<br> RedRat<br> Witbe<br> Wireshark",
-            es: "stb - tester<br> Selenium<br> adb<br> RedRat<br> Witbe<br> Wireshark",
-            br: "stb - tester<br> Selenium<br> adb<br> RedRat<br> Witbe<br> Wireshark",
+            us: "stb-tester<br> Selenium<br> Postman<br> adb<br> RedRat<br> Witbe<br> Wireshark",
+            es: "stb-tester<br> Selenium<br> Postman<br> adb<br> RedRat<br> Witbe<br> Wireshark",
+            br: "stb-tester<br> Selenium<br> Postman<br> adb<br> RedRat<br> Witbe<br> Wireshark",
         },
         TestLibs: {
             us: "Test Libraries",
@@ -158,9 +158,9 @@ export const languages: {
             br: "Bibliotecas de Teste",
         },
         TestLibsList: {
-            us: "Pytest<br> BDD (Cucumber/Behave)<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
-            es: "Pytest<br> BDD (Cucumber/Behave)<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
-            br: "Pytest<br> BDD (Cucumber/Behave)<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
+            us: "Pytest<br> BDD/Gherkin<br> Behave/Cucumber<br> Unittest<br> OpenCV<br> Tesseract(OCR)",
+            es: "Pytest<br> BDD/Gherkin<br> Behave/Cucumber<br> Unittest<br> OpenCV<br> Tesseract(OCR)",
+            br: "Pytest<br> BDD/Gherkin<br> Behave/Cucumber<br> Unittest<br> OpenCV<br> Tesseract(OCR)",
         },
         Coding: {
             us: "Coding",
@@ -168,9 +168,9 @@ export const languages: {
             br: "Programação",
         },
         CodingList: {
-            us: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br> Assembly",
-            es: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br> Assembly",
-            br: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br> Assembly",
+            us: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br>",
+            es: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br>",
+            br: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br>",
         },
         VideoDelivery: {
             us: "Video Delivery",
@@ -178,9 +178,9 @@ export const languages: {
             br: "Engenharia de Vídeo",
         },
         VideoDeliveryList: {
-            us: "IPTV<br> Multicast (UDP, FCC)<br> VoD (HLS, DASH, SS)<br> DTT<br> ISDB - T",
-            es: "IPTV<br> Multicast (UDP, FCC)<br> VoD (HLS, DASH, SS)<br> DTT<br> ISDB - T",
-            br: "IPTV<br> Multicast (UDP, FCC)<br> VoD (HLS, DASH, SS)<br> DTT<br> ISDB - T",
+            us: "Streaming Platforms<br> IPTV<br> Multicast (UDP, FCC)<br> VoD (HLS, DASH, SS)<br> DTT<br> ISDB - T",
+            es: "Streaming Platforms<br> IPTV<br> Multicast (UDP, FCC)<br> VoD (HLS, DASH, SS)<br> DTT<br> ISDB - T",
+            br: "Streaming Platforms<br> IPTV<br> Multicast (UDP, FCC)<br> VoD (HLS, DASH, SS)<br> DTT<br> ISDB - T",
 
         },
         Experience: {
