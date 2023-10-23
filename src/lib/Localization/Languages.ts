@@ -158,9 +158,9 @@ export const languages: {
             br: "Bibliotecas de Teste",
         },
         TestLibsList: {
-            us: "Pytest<br> Pytest - BDD<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
-            es: "Pytest<br> Pytest - BDD<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
-            br: "Pytest<br> Pytest - BDD<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
+            us: "Pytest<br> BDD (Cucumber/Behave)<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
+            es: "Pytest<br> BDD (Cucumber/Behave)<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
+            br: "Pytest<br> BDD (Cucumber/Behave)<br> Unittest<br> Gherkin<br> OpenCV<br> Tesseract(OCR)",
         },
         Coding: {
             us: "Coding",
@@ -168,9 +168,9 @@ export const languages: {
             br: "Programação",
         },
         CodingList: {
-            us: "Python<br> Javascript<br> bash<br> C#<br> Assembly",
-            es: "Python<br> Javascript<br> bash<br> C#<br> Assembly",
-            br: "Python<br> Javascript<br> bash<br> C#<br> Assembly",
+            us: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br> Assembly",
+            es: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br> Assembly",
+            br: "Python<br> Java<br> Javascript<br> SQL<br> bash<br> C#<br> Assembly",
         },
         VideoDelivery: {
             us: "Video Delivery",
