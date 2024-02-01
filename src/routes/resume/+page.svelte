@@ -13,12 +13,12 @@
 			companyName: 'Warner Bros Discovery',
 			imageLogo: 'wbd.jpeg',
 			startTime: new Date(2021, 7, 2),
-			endTime: undefined,
+			endTime: new Date(2023, 10, 30),
 			position: [
 				{
 					positionTitle: 'AutomationLead',
 					startTime: new Date(2022, 9, 1),
-					endTime: undefined,
+					endTime: new Date(2023, 10, 30),
 					location: 'Spain',
 					description: 'WBDLead',
 					projects: 'Max',
