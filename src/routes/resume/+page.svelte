@@ -10,6 +10,23 @@
 
 	const jobDescriptions: JobDescription[] = [
 		{
+			companyName: 'Amazon',
+			imageLogo: 'amz.jpeg',
+			startTime: new Date(2024, 2, 1),
+			endTime: undefined,
+			position: [
+				{
+					positionTitle: 'QAE',
+					startTime: new Date(2024, 2, 1),
+					endTime: undefined,
+					location: 'Spain',
+					description: 'QAEAmz',
+					projects: 'Amazon Business - Checkout',
+					stack: 'Java, git, aws, internal tools'
+				},
+			]
+		},
+		{
 			companyName: 'Warner Bros Discovery',
 			imageLogo: 'wbd.jpeg',
 			startTime: new Date(2021, 7, 2),
@@ -237,7 +254,7 @@
 			href="https://www.linkedin.com/in/leitethiago/?locale={$linkedinLang}"
 			target="_blank"
 			type="button"
-			class="btn bg-primary-500 text-white h6 font-bold py-2 px-4 rounded
+			class="btn bg-primary-100 text-blue h6 font-bold py-2 px-4 rounded
 	 inline-flex items-center mt-4 sm:mt-0 hover:scale-105"
 		>
 			<span>

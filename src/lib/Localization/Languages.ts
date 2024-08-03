@@ -113,7 +113,7 @@ export const languages: {
             br: "pt_BR",
         },
         Introduction: {
-            us: " I have been working with <strong>Quality Assurance</strong > and testing since 2011. My journey began with automotive embedded systems, and later, I transitioned to Telecommunications and video engineering.Throughout my career, I have had the opportunity to be part of projects <strong> serving millions of end users</strong >, contributing to the delivery of top- quality experiences in pay - TV, on - demand, and streaming services.Originally from Brazil, I am currently residing in Madrid, Spain, where I lead an automation team dedicated to delivering products of excellence.I am fluent in <strong>Portuguese, Spanish, and English </strong>. If you'd like to connect, please feel free to reach out to me on LinkedIn or explore more about me below.",
+            us: " I have been working with <strong>Quality Assurance</strong > and testing since 2011. My journey began with automotive embedded systems, and later, I transitioned to Telecommunications and video engineering. Throughout my career, I have had the opportunity to be part of projects <strong> serving millions of end users</strong >, contributing to the delivery of top- quality experiences in pay - TV, on - demand, and streaming services. Originally from Brazil, I am currently residing in Madrid, Spain, where I lead an automation team dedicated to delivering products of excellence. I am fluent in <strong>Portuguese, Spanish, and English </strong>. If you'd like to connect, please feel free to reach out to me on LinkedIn or explore more about me below.",
             es: "Trabajo con <strong>Quality Assurance</strong > y pruebas desde 2011. Mi viaje comenzó con los sistemas embebidos automotrices y luego hice la transición a la ingeniería de Telecomunicaciones y video. A lo largo de mi carrera, he tenido la oportunidad de ser parte de proyectos <strong> que atienden a millones de usuarios finales</strong >, contribuyendo a la entrega de experiencias de alta calidad en servicios de televisión paga, bajo demanda y streaming. Originario de Brasil, actualmente resido en Madrid, España, donde dirijo un equipo de automatización dedicado a entregar productos de alto nível de calidad. Hablo <strong>portugués, español e inglés</strong> con fluidez. Si desea conectarse, no dude en comunicarse conmigo en LinkedIn o vea más sobre mí a continuación.",
             br: "Trabalho com <strong>Quality Assurance</strong > e testes desde 2011. Minha jornada começou com sistemas embarcados automotivos e posteriormente fiz a transição para Engenharia de Telecomunicações e Vídeo. Ao longo da minha carreira, tive a oportunidade de trabalhar em projetos servindo <strong> milhões de usuários finais</strong >, contribuindo para a entrega de experiências de alta qualidade em serviços de TV paga, sob demanda e streaming. Originalmente do Brasil, atualmente resido em Madri, Espanha, onde lidero uma equipe de automação dedicada a entregar produtos de alto nível de qualidade. Sou fluente em <strong>português, espanhol e inglês</strong>. Se desejar se conectar, sinta-se à vontade para entrar em contato comigo no LinkedIn ou veja mais sobre mim abaixo."
         },
@@ -187,6 +187,11 @@ export const languages: {
             us: "Experience",
             es: "Experiencia",
             br: "Experiência",
+        },
+        QAEAmz: {
+            us: "Quality Assurace Engineer in Amazon Business Chekout team.",
+            es: "Quality Assurace Engineer en el equipo de Amazon Business Chekout.",
+            br: "Quality Assurace Engineer na equipe do Amazon Business Chekout.",
         },
         WBDLead: {
             us: "• Leading the test automation team across different countries for the Max and HBO Max projects, focusing on various models of TV decoders, Android TV, and Fire TV devices. <br> • Developing test automation frameworks to facilitate multi–device support with a unified code base.  Conducting onboarding sessions and delivering training to the Discovery+ team on utilizing the automation stack effectively.",
@@ -282,6 +287,11 @@ export const languages: {
             us: "Medellin - Colombia",
             es: "Medellín - Colombia",
             br: "Medellín - Colômbia"
+        },
+        QAE: {
+            us: "Quality Assurance Engineer",
+            es: "Quality Assurance Engineer",
+            br: "Quality Assurance Engineer",
         },
         AutomationLead: {
             us: "Automation Lead",
